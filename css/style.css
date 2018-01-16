@@ -51,7 +51,6 @@ body {
   background-image: url("https://s9.postimg.org/eknpvmgb3/AMP-white-1024x7521.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  top: 0;
   left: 0;
   right: 0;
   margin: auto;
@@ -70,10 +69,10 @@ a:hover {
 }
 
 #social-icons {
-  z-index: 1;
+  z-index: 1; 
   font-size: 2em;
   letter-spacing: 0.2em;
-  padding: 0.3em 0.5em;
+  padding: 0.3em;
   position: fixed;
   bottom: 0;
   cursor: pointer;
@@ -160,7 +159,7 @@ p {
 }
 
 #amplugged {
-  height: auto;
+  height: 100vh;
   background-image: url("https://images.unsplash.com/photo-1511900680221-4d62cb42ced1?auto=format&fit=crop&w=750&q=80");
   background-repeat: no-repeat;
   background-size: cover;
@@ -171,13 +170,13 @@ iframe {
   height: 260px;
   display: block;
   margin: auto;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
   border: none;
 }
 
 #news {
   height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?auto=format&fit=crop&w=750&q=80");
+  background-image: url("https://images.unsplash.com/photo-1453090927415-5f45085b65c0?auto=format&fit=crop&w=731&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -363,6 +362,10 @@ iframe {
   li {
     font-size: 1.5em;
   }
+
+  iframe {
+    height: 500px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -379,5 +382,12 @@ iframe {
 
   #social-icons {
     font-size: 3em;
+  }
+}
+
+/* for landscape orientation */
+@media only screen and (orientation: landscape) {
+  #amplugged {
+    height: auto;
   }
 }
