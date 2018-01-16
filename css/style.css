@@ -364,7 +364,7 @@ iframe {
   }
 
   iframe {
-    height: 500px;
+    height: 450px;
   }
 }
 
@@ -386,8 +386,8 @@ iframe {
 }
 
 /* for landscape orientation */
-@media only screen and (orientation: landscape) {
+/*@media only screen and (orientation: landscape) {
   #amplugged {
     height: auto;
   }
-}
+} */
