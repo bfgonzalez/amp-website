@@ -148,6 +148,10 @@ p {
 
 #bands:hover {
   opacity: 1;
+  -webkit-transition: opacity ease-out 0.5s;
+  -moz-transition: opacity ease-out 0.5s;
+  -o-transition: opacity ease-out 0.5s;
+  transition: opacity ease-out 0.5s;
 }
 
 #soloists {
@@ -160,6 +164,10 @@ p {
 
 #soloists:hover {
  opacity: 1;
+ -webkit-transition: opacity ease-out 0.5s;
+ -moz-transition: opacity ease-out 0.5s;
+ -o-transition: opacity ease-out 0.5s;
+ transition: opacity ease-out 0.5s;
 }
 
 .artists-label {
