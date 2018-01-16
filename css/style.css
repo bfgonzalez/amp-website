@@ -52,7 +52,8 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   top: 0;
-  left: 45%;
+  left: 0;
+  right: 0;
   margin: auto;
   margin-top: 0.7em;
   position: absolute;
@@ -309,10 +310,6 @@ p {
 @media only screen and (min-width: 600px) {
   #sidenav {
     margin-top: 7%;
-  }
-
-  #amp-logo {
-    left: 48%;
   }
 
 }
