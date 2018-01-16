@@ -143,6 +143,11 @@ p {
  background-size: cover;
  height: 50vh;
  cursor: pointer;
+ opacity: 0.9;
+}
+
+#bands:hover {
+  opacity: 1;
 }
 
 #soloists {
@@ -150,6 +155,11 @@ p {
   background-size: cover;
   height: 50vh;
   cursor: pointer;
+  opacity: 0.9;
+}
+
+#soloists:hover {
+ opacity: 1;
 }
 
 .artists-label {
