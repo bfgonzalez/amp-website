@@ -80,17 +80,15 @@ a:hover {
 }
 
 #about {
-  background-image: url("https://static.pexels.com/photos/21148/pexels-photo.jpg");
+  background-image: url("https://images.unsplash.com/photo-1420161900862-9a86fa1f5c79?auto=format&fit=crop&w=750&q=80");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1em;
-  opacity: 0.9;
   height: auto;
   top: 0;
 }
 
 h1 {
-  font-style: italic;
   font-size: 2em;
   color: #E74265;
   text-align: center;
@@ -133,7 +131,7 @@ p {
   margin-top: 1em;
   width: 18em;
   display: block;
-  line-height: 1.2em;
+  line-height: 1.3em;
 }
 
 #artists {
@@ -162,10 +160,19 @@ p {
 }
 
 #amplugged {
-  height: 100vh;
+  height: auto;
   background-image: url("https://images.unsplash.com/photo-1511900680221-4d62cb42ced1?auto=format&fit=crop&w=750&q=80");
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 1em;
+}
+
+iframe {
+  height: 260px;
+  display: block;
+  margin: auto;
+  margin-bottom: 1.5em;
+  border: none;
 }
 
 #news {
@@ -310,6 +317,10 @@ p {
 @media only screen and (min-width: 600px) {
   #sidenav {
     margin-top: 7%;
+  }
+
+  iframe {
+    height: 350px;
   }
 
 }
