@@ -326,12 +326,21 @@ iframe {
 }
 
 @media only screen and (min-width: 768px) {
+  #menu {
+    font-size: 3em;
+  }
+  
   #sidenav {
     margin-top: 5.5%;
   }
   
   #sidenav a {
     margin-left: 13%;
+  }
+
+  #amp-logo {
+    width: 3.5em;
+    height: 3.5em;
   }
 
   h1 {
@@ -363,17 +372,9 @@ iframe {
 }
 
 @media only screen and (min-width: 1440px) {
-  #menu {
-    font-size: 3em;
-  }
   
   #sidenav {
     margin-top: 4%;
-  }
-
-  #amp-logo {
-    width: 3.5em;
-    height: 3.5em;
   }
 
   #social-icons {
