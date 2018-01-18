@@ -9,6 +9,7 @@ body {
   background-image: url("https://images.unsplash.com/photo-1495651779359-881fde1808a6?auto=format&fit=crop&w=750&q=80");
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 0.9;
 }
 
 #menu {
@@ -93,6 +94,10 @@ h1 {
   text-align: center;
   padding-top: 2em;
   margin: 0;
+}
+
+#landing-text {
+  font-size: 5em;
 }
 
 h2 {
@@ -348,11 +353,11 @@ iframe {
   }
   
   #sidenav {
-    margin-top: 5.5%;
+    margin-top: 8%;
   }
   
   #sidenav a {
-    margin-left: 13%;
+    margin-left: 19%;
   }
 
   #amp-logo {
@@ -386,13 +391,22 @@ iframe {
   }
 }
 
+@media only screen and (min-width: 900px) {
+  #sidenav {
+    margin-top: 7%;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   #sidenav {
     margin-top: 6%; 
   }
 
-  #sidenav a {
-    margin-left: 18%;
+}
+
+@media only screen and (min-width: 1200px) {
+  #sidenav {
+    margin-top: 5%;
   }
 }
 
@@ -406,10 +420,3 @@ iframe {
     font-size: 3em;
   }
 }
-
-/* for landscape orientation */
-/*@media only screen and (orientation: landscape) {
-  #amplugged {
-    height: auto;
-  }
-} */
