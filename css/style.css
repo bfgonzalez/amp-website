@@ -98,8 +98,9 @@ p {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.2em;
   font-family: "Oswald", sans-serif;
+  font-weight: bold;
   color: #E74265;
   text-align: center;
   padding-top: 2em;
@@ -118,7 +119,7 @@ h1 {
 
 #departments h1 {
   margin-bottom: 1em;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2em;
 }
 
 #dept-container {
@@ -150,10 +151,11 @@ h2 {
   font-family: "Oswald", sans-serif;
   color: #E74265;
   text-align: center;
+  letter-spacing: 0.2em;
 }
 
 #vision-mission {
-  margin-top: 4em;
+  margin-top: 2.5em;
 }
 
 #artists {
@@ -383,10 +385,6 @@ iframe {
     height: 3.5em;
   }
 
-  h1 {
-    font-size: 2.5em;
-  }
-
   h2 {
     font-size: 2em;
   }
@@ -395,14 +393,7 @@ iframe {
     font-size: 1.5em;
   }
 
-  ul {
-    width: 27em;
-    line-height: 1.7em;
-  }
-
-  li {
-    font-size: 1.5em;
-  }
+ 
 
   iframe {
     height: 450px;
