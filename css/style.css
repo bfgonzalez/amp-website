@@ -100,7 +100,6 @@ p {
 h1 {
   font-size: 2em;
   font-family: "Oswald", sans-serif;
-  font-weight: bold;
   color: #E74265;
   text-align: center;
   padding-top: 2em;
@@ -110,7 +109,6 @@ h1 {
 #landing-text {
   font-size: 5em;
   font-family: "Questrial", sans-serif;
-  font-weight: bold;
 }
 
 #departments {
