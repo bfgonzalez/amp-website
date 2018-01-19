@@ -131,7 +131,7 @@ h1 {
 }
 
 .dept-block {
-  height: 15em;
+  min-height: 15em;
   color: white;
   background: linear-gradient(to right, #E74265, #ff0055) ;
   border: 2px solid #212121;
@@ -139,6 +139,7 @@ h1 {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   opacity: 0.9;
+  overflow-y: auto;
 }
 
 /* Scale up dept-block */
