@@ -140,25 +140,6 @@ h1 {
   transform: scale(1.2, 1.2);
 }
 
-.dept-block .front,
-.dept-block .back {
-}
-
-.back {
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-/* for flip effect on hover */
-.flip {
-  -webkit-transform: rotateY( 180deg );
-  -moz-transform: rotateY( 180deg );
-  -o-transform: rotateY( 180deg );
-  transform: rotateY( 180deg );
-}
-
 .dept-name {
   font-size: 1.5em;
 }
