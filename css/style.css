@@ -126,19 +126,20 @@ h1 {
 }
 
 .dept-block {
-  height: 15em;
+  min-height: 15em;
   color: white;
   background-color: #E74265;
   border: 2px solid #212121;
   padding: 1em;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  overflow-y: hidden;
 }
 
 /* Scale up dept-block */
 .dept-block:hover {
-  transform: scale(1.2, 1.2);
-  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
 
 }
 
