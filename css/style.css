@@ -138,6 +138,8 @@ h1 {
 /* Scale up dept-block */
 .dept-block:hover {
   transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+
 }
 
 .dept-name {
