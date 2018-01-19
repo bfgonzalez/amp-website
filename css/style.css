@@ -79,8 +79,7 @@ a:hover {
 }
 
 #about {
-  background-color: black;
-  opacity: 0.9;
+  background-color: #212121;
   padding: 1em;
   height: auto;
 }
@@ -133,20 +132,10 @@ h1 {
 .dept-block {
   min-height: 15em;
   color: white;
-  background: linear-gradient(to right, #E74265, #ff0055) ;
+  background: linear-gradient(to right, #E74265, #ff0055);
   border: 2px solid #212121;
   padding: 1em;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
   opacity: 0.9;
-  overflow-y: auto;
-}
-
-/* Scale up dept-block */
-.dept-block:hover {
-  transform: scale(1.1, 1.1);
-  -webkit-transform: scale(1.1, 1.1);
-
 }
 
 .dept-name {
@@ -159,9 +148,14 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.7em;
+  font-family: "Oswald", sans-serif;
   color: #E74265;
   text-align: center;
+}
+
+#vision-mission {
+  margin-top: 4em;
 }
 
 #artists {
