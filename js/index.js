@@ -16,8 +16,9 @@ $(document).ready(function() {
     $("#sidenav").fadeToggle();  
   });
   
+  // closes sidenav once link has been clicked
   $("a[href^='#']").on("click", function() {
     $("#sidenav").fadeOut();
   });
-
+  
 });

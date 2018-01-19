@@ -9,7 +9,6 @@ body {
   background-image: url("https://images.unsplash.com/photo-1495651779359-881fde1808a6?auto=format&fit=crop&w=750&q=80");
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.9;
 }
 
 #menu {
@@ -80,12 +79,23 @@ a:hover {
 }
 
 #about {
-  background-image: url("https://images.unsplash.com/photo-1420161900862-9a86fa1f5c79?auto=format&fit=crop&w=750&q=80");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black;
+  opacity: 0.9;
   padding: 1em;
   height: auto;
-  top: 0;
+}
+/* paragraph text for #about section */ 
+p {
+  color: white;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: left;
+  margin: auto;
+  margin-top: 1em;
+  width: 18em;
+  display: block;
+  line-height: 1.3em;
 }
 
 h1 {
@@ -100,42 +110,68 @@ h1 {
   font-size: 5em;
 }
 
+#departments {
+  height: auto;
+  background-color: #212121;
+}
+
+#departments h1 {
+  margin-bottom: 1em;
+}
+
+#dept-container {
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 6em;
+}
+
+.dept-block {
+  height: 15em;
+  color: white;
+  background-color: #E74265;
+  border: 2px solid #212121;
+  padding: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Scale up dept-block */
+.dept-block:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.dept-block .front,
+.dept-block .back {
+}
+
+.back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* for flip effect on hover */
+.flip {
+  -webkit-transform: rotateY( 180deg );
+  -moz-transform: rotateY( 180deg );
+  -o-transform: rotateY( 180deg );
+  transform: rotateY( 180deg );
+}
+
+.dept-name {
+  font-size: 1.5em;
+}
+
+.dept-description {
+  font-size: 1em;
+  width: auto;
+}
+
 h2 {
   font-size: 1.5em;
   color: #E74265;
   text-align: center;
-}
-
-ul {
-  list-style: none;
-  text-decoration: none;
-  width: 18em;
-  padding: 0;
-  display: block;
-  line-height: 1.2em;
-  margin: auto;
-}
-
-li {
-  font-size: 1em;
-  color: white;
-  text-align: left;
-  cursor: pointer;
-}
-
-li:hover {
-  color: #E74265; 
-}
-
-p {
-  color: white;
-  font-size: 1em;
-  text-align: left;
-  margin: auto;
-  margin-top: 1em;
-  width: 18em;
-  display: block;
-  line-height: 1.3em;
 }
 
 #artists {
