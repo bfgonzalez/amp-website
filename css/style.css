@@ -163,6 +163,10 @@ h2 {
   height: 100vh;
 }
 
+.artists-label {
+  font-size: 3em;
+}
+
 #bands {
  background-image: url("https://images.unsplash.com/photo-1497342860825-91ff79bb8a7c?auto=format&fit=crop&w=750&q=80"); 
  background-size: cover;
@@ -179,6 +183,18 @@ h2 {
   transition: opacity ease-out 0.5s;
 }
 
+.band-block {
+  background: linear-gradient(to right, #E74265, #ff0055);
+  border: 1px solid white;
+  min-height: 50vh;
+  cursor: pointer;
+}
+
+.band-block h2 {
+  color: white;
+  letter-spacing: 0;
+}
+
 #soloists {
   background-image: url("https://images.unsplash.com/photo-1506026667107-3350a4c8eca6?auto=format&fit=crop&w=750&q=80");
   background-size: cover;
@@ -193,12 +209,6 @@ h2 {
  -moz-transition: opacity ease-out 0.5s;
  -o-transition: opacity ease-out 0.5s;
  transition: opacity ease-out 0.5s;
-}
-
-.artists-label {
-  font-style: normal;
-  font-size: 3em;
-  color: white;
 }
 
 #amplugged {
@@ -335,6 +345,10 @@ iframe {
 @media only screen and (max-width: 767px) {
   #social-icons {
     display: none;
+  }
+
+  .band-block {
+    min-height: 25vh;
   }
 }
 
