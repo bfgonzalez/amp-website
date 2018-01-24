@@ -184,15 +184,22 @@ h2 {
 }
 
 .band-block {
-  background: linear-gradient(to right, #E74265, #ff0055);
+  background: #212121;
   border: 1px solid white;
   min-height: 50vh;
   cursor: pointer;
 }
 
+.band-block:hover {
+  background: linear-gradient(to right, #E74265, #ff0055);
+}
+
 .band-block h2 {
-  color: white;
   letter-spacing: 0;
+}
+
+.band-block:hover h2 {
+  color: white;
 }
 
 #soloists {
