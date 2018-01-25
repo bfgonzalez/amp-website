@@ -196,10 +196,17 @@ h2 {
 
 .band-block h2 {
   letter-spacing: 0;
+  margin-top: 1.5em;
 }
 
 .band-block:hover h2 {
   color: white;
+}
+
+.modal {
+  height: 90vh;
+  background: #212121;
+  border-radius: 0;
 }
 
 #soloists {
