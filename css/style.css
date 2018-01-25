@@ -209,7 +209,8 @@ h2 {
   border-radius: 0;
 }
 
-h3 {
+/* headers for members & social links */
+.member-social {
   font-family: "Oswald", sans-serif;
   font-size: 1.3em;
   color: #E74265;
