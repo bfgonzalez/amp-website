@@ -234,6 +234,10 @@ li {
   padding: 2em;
 }
 
+img {
+  width: 100%;
+}
+
 .modal p {
  font-size: 0.95em;
  width: auto;
