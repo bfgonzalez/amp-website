@@ -227,7 +227,8 @@ li {
 }
 
 .modal {
-  height: 90vh;
+  height: auto;
+  width: 90vw;
   background: #212121;
   border-radius: 0;
   padding: 2em;
