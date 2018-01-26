@@ -21,7 +21,7 @@ $(document).ready(function() {
     $("#sidenav").fadeOut();
   });
   
-  // modal pop-up 
+  // modal pop-up for each band
   $("#band-1").on("click", function() {
     $("#modal-1").modal({
       fadeDuration: 200
@@ -69,4 +69,5 @@ $(document).ready(function() {
       fadeDuration: 200
     });
   });
+
 });
