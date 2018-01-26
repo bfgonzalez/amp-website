@@ -207,9 +207,9 @@ li {
   transition: opacity ease-out 0.5s;
 }
 
-.band-block {
+.band-block, .soloist-block {
   background: #212121;
-  min-height: 50vh;
+  height: 50vh;
   cursor: pointer;
 }
 
@@ -217,7 +217,11 @@ li {
   background: linear-gradient(to right, #E74265, #ff0055);
 }
 
-.band-block h2 {
+.soloist-block:hover {
+  background: linear-gradient(to right, #E74265, #ff0055);
+}
+
+.band-block h2, .soloist-block h2 {
   letter-spacing: 0;
   margin-top: 1.5em;
 }
@@ -225,6 +229,11 @@ li {
 .band-block:hover h2 {
   color: white;
 }
+
+.soloist-block:hover h2 {
+  color: white;
+}
+
 
 .modal {
   height: auto;
@@ -402,8 +411,8 @@ iframe {
     display: none;
   }
 
-  .band-block {
-    min-height: 25vh;
+  .band-block, .soloist-block {
+    height: 25vh;
   }
 }
 
