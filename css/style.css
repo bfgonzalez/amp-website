@@ -169,6 +169,7 @@ h2 {
 
 #artist-links-group {
   letter-spacing: 1em;
+  margin-top: -1em;
 }
 .artist-links {
   color: white;
@@ -182,6 +183,7 @@ h2 {
 ul {
   list-style-type: none;
   padding-left: 0;
+  margin-top: -1em;
 }
 
 li {
@@ -207,7 +209,6 @@ li {
 
 .band-block {
   background: #212121;
-  border: 1px solid white;
   min-height: 50vh;
   cursor: pointer;
 }
