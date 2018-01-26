@@ -167,6 +167,28 @@ h2 {
   font-size: 3em;
 }
 
+#artist-links-group {
+  letter-spacing: 1em;
+}
+.artist-links {
+  color: white;
+  font-size: 1.7em;
+}
+
+.artist-links:hover {
+  color: #E74265;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  color: white;
+  line-height: 1.3em;
+}
+
 #bands {
  background-image: url("https://images.unsplash.com/photo-1497342860825-91ff79bb8a7c?auto=format&fit=crop&w=750&q=80"); 
  background-size: cover;
@@ -207,6 +229,12 @@ h2 {
   height: 90vh;
   background: #212121;
   border-radius: 0;
+  padding: 2em;
+}
+
+.modal p {
+ font-size: 0.95em;
+ width: auto;
 }
 
 /* headers for members & social links */
@@ -428,10 +456,12 @@ iframe {
     font-size: 1.5em;
   }
 
- 
-
   iframe {
     height: 450px;
+  }
+  
+  .modal p {
+    font-size: 1em;
   }
 }
 
