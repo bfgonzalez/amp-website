@@ -70,4 +70,47 @@ $(document).ready(function() {
     });
   });
 
+  // modal pop-up for each soloist category 
+  $("#vocals").on("click", function() {
+    $("#modal-1").modal({
+      fadeDuration: 100
+    });
+  });
+
+  $("#guitar").on("click", function() {
+    $("#modal-2").modal({
+      fadeDuration: 100
+    });
+  });
+
+  $("#bass").on("click", function() {
+    $("#modal-3").modal({
+      fadeDuration: 100
+    });
+  });
+
+  $("#drums").on("click", function() {
+    $("#modal-4").modal({
+      fadeDuration: 100
+    });
+  });
+
+  $("#keys").on("click", function() {
+    $("#modal-5").modal({
+      fadeDuration: 100
+    });
+  });
+
+  $("#misc").on("click", function() {
+    $("#modal-6").modal({
+      fadeDuration: 100
+    });
+  });
+
+  $("#producer").on("click", function() {
+    $("#modal-7").modal({
+      fadeDuration: 100
+    });
+  });
+
 });
