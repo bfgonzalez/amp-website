@@ -24,49 +24,49 @@ $(document).ready(function() {
   // modal pop-up for each band
   $("#band-1").on("click", function() {
     $("#modal-1").modal({
-      fadeDuration: 200
+      fadeDuration: 100
     });
   });
 
   $("#band-2").on("click", function() {
     $("#modal-2").modal({
-      fadeDuration: 200
+      fadeDuration: 100
     });
   });
 
   $("#band-3").on("click", function() {
     $("#modal-3").modal({
-      fadeDuration: 200
+      fadeDuration: 100
     });
   });
 
   $("#band-4").on("click", function() {
     $("#modal-4").modal({
-      fadeDuration: 200
+      fadeDuration: 100
     });
   });
 
   $("#band-5").on("click", function() {
     $("#modal-5").modal({
-      fadeDuration: 200
+      fadeDuration: 100
     });
   });
 
   $("#band-6").on("click", function() {
     $("#modal-6").modal({
-      fadeDuration: 200
+      fadeDuration: 100
     });
   });
 
   $("#band-7").on("click", function() {
     $("#modal-7").modal({
-      fadeDuration: 200
+      fadeDuration: 100
     });
   });
 
   $("#band-8").on("click", function() {
     $("#modal-8").modal({
-      fadeDuration: 200
+      fadeDuration: 100
     });
   });
 
