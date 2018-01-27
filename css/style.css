@@ -234,7 +234,6 @@ li {
   color: white;
 }
 
-
 .modal {
   height: auto;
   width: 86vw;
@@ -248,7 +247,7 @@ img {
 }
 
 .modal p {
- font-size: 0.95em;
+ font-size: 1em;
  width: auto;
 }
 
@@ -476,7 +475,7 @@ iframe {
   }
   
   .modal p {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 }
 
