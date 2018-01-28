@@ -188,6 +188,10 @@ li {
   height: 100vh;
 }
 
+#artists h1 {
+  font-size: 2.7em;
+}
+
 /* social links for both bands and soloists */ 
 .artist-links {
   color: white;
