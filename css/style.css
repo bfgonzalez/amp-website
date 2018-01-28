@@ -289,6 +289,19 @@ li {
   color: white;
 }
 
+.roster-members {
+	text-align: center;
+}
+
+.roster-members li {
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.roster-members li:hover {
+  background: #E74265;
+}
+
 /* pop-up windows used to display details of bands and soloists */ 
 .modal {
   height: auto;

@@ -70,7 +70,7 @@ $(document).ready(function() {
     });
   });
 
-  // modal pop-up for each soloist category 
+  // modal pop-up for each soloist roster 
   $("#vocals").on("click", function() {
     $("#modal-1").modal({
       fadeDuration: 100
@@ -111,6 +111,6 @@ $(document).ready(function() {
     $("#modal-7").modal({
       fadeDuration: 100
     });
-  });
-
-});
+	});
+	
+});				
