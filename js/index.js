@@ -112,5 +112,14 @@ $(document).ready(function() {
       fadeDuration: 100
     });
 	});
-	
+  
+  //opens & closes more-info on click of roster member (soloists)
+  $(".more-info").hide();
+  $("li").on("click", function() {
+    $(this).find(".more-info").toggle(function () {
+      $(this).css("background", "#F4A9B9");
+    });
+    
+  });
+
 });				

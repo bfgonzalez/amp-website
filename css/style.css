@@ -298,12 +298,25 @@ li {
 }
 
 .roster-members li {
-  font-size: 1.2em;
+  font-size: 1.3em;
   cursor: pointer;
 }
 
 .roster-members li:hover {
   background: #E74265;
+}
+
+/* more details of soloists: genres, soundcloud */ 
+.more-info {
+  height: auto;
+  position: relative;
+  padding: 0 1em 1em 1em;
+  overflow-y: hidden;
+}
+
+.more-info p {
+  text-align: center;
+  color: #E74265;
 }
 
 /* pop-up windows used to display details of bands and soloists */ 
