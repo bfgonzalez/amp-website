@@ -324,6 +324,7 @@ img {
 .modal p {
  font-size: 1em;
  width: auto;
+ margin-top: -1em;
 }
 
 #amplugged {
