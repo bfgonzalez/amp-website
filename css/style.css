@@ -374,6 +374,11 @@ iframe {
   background-size: cover;
 }
 
+footer {
+  color: white;
+  text-align: center;
+}
+
 /* media queries for responsive design */
 * {
   -webkit-box-sizing: border-box;
