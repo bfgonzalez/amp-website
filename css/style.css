@@ -298,11 +298,15 @@ li {
 }
 
 .roster-members li {
-  font-size: 1.3em;
+  font-size: 1.4em;
   cursor: pointer;
 }
 
 .roster-members li:hover {
+  background: #E74265;
+}
+
+.pink-highlight {
   background: #E74265;
 }
 
