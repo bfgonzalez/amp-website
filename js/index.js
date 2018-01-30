@@ -118,6 +118,7 @@ $(document).ready(function() {
   $("li").on("click", function() {
     $(this).find(".more-info").toggle(function () {
       $(this).css("background", "#F4A9B9");
+      $("p").css("fontSize", "0.95em");
     });
   });
 
