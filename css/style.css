@@ -318,6 +318,10 @@ li {
   overflow-y: hidden;
 }
 
+.more-info h3 {
+  font-size: 1.1em;
+}
+
 .more-info p {
   text-align: center;
   color: #E74265;
