@@ -378,6 +378,51 @@ iframe {
   background-size: cover;
 }
 
+#events h2 {
+  letter-spacing: 0;
+}
+
+#upcoming-event {
+  width: 80vw;
+  height: 70vh;
+  background: #212121;
+  padding: 0.5em;
+  display: block;
+  position: relative;
+  margin: auto;
+}
+
+#upcoming-event img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+#event-overlay {
+  height: auto;
+  width: inherit;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0;
+  position: absolute;
+  right: 0.5em;
+  bottom: 0.5em;
+  left: 0.5em;
+}
+
+#event-overlay h2 {
+  margin: 0.4em;
+}
+
+#event-overlay h2:first-of-type {
+ font-size: 2.3em;
+ font-style: italic;
+}
+
+#event-overlay h2:last-of-type {
+ margin-top: -0.3em;
+ }
+
 footer {
   color: white;
   text-align: center;
