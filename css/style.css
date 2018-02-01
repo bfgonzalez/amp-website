@@ -11,21 +11,22 @@ body {
   background-repeat: no-repeat;
 }
 
-#menu {
- z-index: 1;
+#nav-wrapper {
+  z-index: 1;
+  position: fixed; 
+  padding-left: 1em;
+  cursor: pointer;
+}
+
+#menu { 
  color: white;
  font-size: 2em;
- cursor: pointer;
- padding-top: 0.2em; 
- padding-left: 0.5em;
- position: fixed;
+ margin-bottom: -0.25em;
 }
 
 #sidenav {
-  z-index: 1;
   display: none;
-  position: fixed;
-  margin-top: 13%;
+  padding-left: 0.15em;
   opacity: 0.9;
 }
 
@@ -35,8 +36,6 @@ body {
   color: white;
   background-color: #212121; /*remove after*/
   padding: 0.6em;
-  margin-left: 13%;
-  cursor: pointer;
   display: block;
 }
 
@@ -72,7 +71,7 @@ a:hover {
   z-index: 1; 
   font-size: 2em;
   letter-spacing: 0.2em;
-  padding: 0.3em;
+  padding: 0.5em;
   position: fixed;
   bottom: 0;
   cursor: pointer;
@@ -539,29 +538,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 375px) {
-  #sidenav {
-    margin-top: 11%;
-  }
-}
-
-@media only screen and (min-width: 425px) {
-  #sidenav {
-    margin-top: 10%;
-  }
-}
-
-@media only screen and (min-width: 500px) {
-  #sidenav {
-    margin-top: 8%;
-  }
-}
-
 @media only screen and (min-width: 600px) {
-  #sidenav {
-    margin-top: 7%;
-  }
-
   iframe {
     height: 350px;
   }
@@ -571,14 +548,6 @@ footer {
 @media only screen and (min-width: 768px) {
   #menu {
     font-size: 3em;
-  }
-  
-  #sidenav {
-    margin-top: 8%;
-  }
-  
-  #sidenav a {
-    margin-left: 19%;
   }
 
   #amp-logo {
@@ -603,31 +572,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 900px) {
-  #sidenav {
-    margin-top: 7%;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  #sidenav {
-    margin-top: 6%; 
-  }
-
-}
-
-@media only screen and (min-width: 1200px) {
-  #sidenav {
-    margin-top: 5%;
-  }
-}
-
 @media only screen and (min-width: 1440px) {
-  
-  #sidenav {
-    margin-top: 4%;
-  }
-
   #social-icons {
     font-size: 3em;
   }
