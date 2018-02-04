@@ -147,7 +147,7 @@ $(document).ready(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
     // Output the result in an element with id="demo"
-    $("#countdown").text("Time until event: " + days + "d " + hours + "h "
+    $("#countdown").text(days + "d " + hours + "h "
     + minutes + "m " + seconds + "s ");
     
     // If the count down is over, write some text 

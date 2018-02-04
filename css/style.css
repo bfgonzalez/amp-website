@@ -136,11 +136,13 @@ h1 {
   opacity: 0.9;
 }
 
-.dept-name {
+/* department names */
+#departments h3 {
   font-size: 1.5em;
 }
 
-.dept-description {
+/* department descriptions */
+#departments p {
   font-size: 1.1em;
   width: auto;
 }
@@ -371,7 +373,7 @@ iframe {
 }
 
 #events {
-  height: 100vh;
+  height: auto;
   background-image: url("https://images.unsplash.com/photo-1484068793701-4e03840374c5?auto=format&fit=crop&w=750&q=80");
   background-repeat: no-repeat;
   background-size: cover;
@@ -383,18 +385,17 @@ iframe {
 
 #upcoming-event {
   width: 80vw;
-  height: 70vh;
+  height: 18em;
   background: #212121;
   padding: 0.5em;
   display: block;
   position: relative;
+  margin-bottom: 2em;
   margin: auto;
 }
 
 #upcoming-event img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
+  background-size: cover;
   opacity: 0.8;
 }
 
@@ -405,8 +406,8 @@ iframe {
   padding: 0;
   position: absolute;
   right: 0.5em;
-  bottom: 0.5em;
   left: 0.5em;
+  bottom: 0.5em;
 }
 
 #event-overlay h2 {
@@ -414,12 +415,69 @@ iframe {
 }
 
 #event-overlay h2:first-of-type {
- font-size: 2.3em;
+ font-size: 2em;
  font-style: italic;
 }
 
 #event-overlay h2:last-of-type {
  margin-top: -0.3em;
+ }
+
+ #more-events {
+  width: 80vw;
+  height: auto;
+  background: #212121;
+  padding: 0.5em;
+  display: block;
+  position: relative;
+  margin: auto;
+ }
+
+ .event-block {
+   color: #E74265;
+   background: #F4A9B9;
+   min-height: 10em;
+   border-left: 5px solid #ff0055;
+   border: 3px solid #212121;
+   padding: 1em;
+   opacity: 0.9;
+ }
+
+.event-date {
+  background: #ff0055;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  height: auto;
+  text-align: center; 
+ }
+
+.event-date h2 {
+  color: white;
+  font-size: 2.3em;
+  margin: 0;
+  opacity: 0.7;
+}
+
+ .event-details h3 {
+   color: #ff0055;
+   font-family: "Oswald", sans-serif;
+   font-size: 2em;
+   font-style: italic;
+   margin-top: -0.1em;
+ }
+
+ .event-details p {
+   color: #212121;
+   font-size: 1.1em;
+   width: auto;
+ }
+
+ .event-details p:first-of-type {
+  margin-bottom: 2em;
+}
+
+ .event-details p:last-of-type {
+  font-weight: bold;
  }
 
 footer {
@@ -521,6 +579,10 @@ footer {
   
   .modal p {
     font-size: 1.1em;
+  }
+
+  #upcoming-event {
+    height: 22em;
   }
 }
 
