@@ -385,17 +385,15 @@ iframe {
 
 #upcoming-event {
   width: 80vw;
-  height: 18em;
-  background: #212121;
+  height: 20em;
+  background-color: #212121;
   padding: 0.5em;
-  display: block;
   position: relative;
   margin-bottom: 2em;
   margin: auto;
 }
 
 #upcoming-event img {
-  background-size: cover;
   opacity: 0.8;
 }
 
@@ -403,25 +401,26 @@ iframe {
   height: auto;
   width: inherit;
   background: rgba(255, 255, 255, 0.7);
-  padding: 0;
   position: absolute;
   right: 0.5em;
   left: 0.5em;
-  bottom: 0.5em;
+  bottom: 0;
 }
 
 #event-overlay h2 {
+  font-family: "Questrial", sans-serif;
   margin: 0.4em;
 }
 
-#event-overlay h2:first-of-type {
- font-size: 2em;
- font-style: italic;
+#countdown {
+  text-align: center;
 }
 
-#event-overlay h2:last-of-type {
- margin-top: -0.3em;
- }
+#countdown h2 {
+ font-size: 2em;
+ font-family: "Questrial", sans-serif;
+ display: inline;
+}
 
  #more-events {
   width: 80vw;
