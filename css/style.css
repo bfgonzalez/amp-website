@@ -124,16 +124,18 @@ h1 {
 #dept-container {
   padding-left: 3em;
   padding-right: 3em;
-  padding-bottom: 6em;
+  padding-bottom: 3em;
 }
 
 .dept-block {
-  min-height: 15em;
+  min-height: 16em;
   color: white;
-  background: linear-gradient(to right, #E74265, #ff0055);
-  border: 2px solid #212121;
-  padding: 1em;
-  opacity: 0.9;
+  border: 2px solid  #E74265;
+}
+
+.dept-icons {
+  font-size: 4em;
+  color: #E74265;
 }
 
 /* department names */
@@ -143,7 +145,7 @@ h1 {
 
 /* department descriptions */
 #departments p {
-  font-size: 1.1em;
+  font-size: 1em;
   width: auto;
 }
 
