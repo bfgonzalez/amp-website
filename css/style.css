@@ -484,7 +484,12 @@ iframe {
 
 footer {
   color: white;
+}
+
+footer p {
+  font-size: 1.2em;
   text-align: center;
+  padding: 1em;
 }
 
 /* media queries for responsive design */
@@ -559,7 +564,7 @@ footer {
 
 @media only screen and (min-width: 768px) {
   #menu {
-    font-size: 3em;
+    font-size: 2.6em;
   }
 
   #amp-logo {
@@ -589,6 +594,10 @@ footer {
 }
 
 @media only screen and (min-width: 1440px) {
+  #menu {
+    font-size: 3em;
+  }
+
   #departments p {
     font-size: 1.2em;
     width: auto;
