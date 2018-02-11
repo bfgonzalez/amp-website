@@ -112,7 +112,7 @@ $(document).ready(function() {
     });
   });
 
-  // keeps pink highlight while dropdown is open & removes highlight when closed
+  // keeps pink highlight for list items under soloist rosters while dropdown is open & removes highlight when closed
   $("li").on("click", function () {
     $(this).not(".band-members > li").toggleClass("pink-highlight");
   });
