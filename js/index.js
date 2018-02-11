@@ -114,7 +114,7 @@ $(document).ready(function() {
 
   // keeps pink highlight while dropdown is open & removes highlight when closed
   $("li").on("click", function () {
-    $(this).toggleClass("pink-highlight");
+    $(this).not(".band-members > li").toggleClass("pink-highlight");
   });
 
   // countdown timer for upcoming event 
