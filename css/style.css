@@ -385,6 +385,30 @@ img {
  display: inline;
 }
 
+#amplitube-news {
+  height: 100vh;
+  background: #212121;
+}
+
+#amplitube-news h1 {
+  margin-top: -1.8em;
+  letter-spacing: 0.1em;
+  font-size: 2.7em;
+}
+
+.article-container {
+  height: 31em;
+  border: 2px solid  #E74265;
+}
+
+#news {
+  border: 2px solid #E74265;
+}
+
+#amplitube {
+  border: 2px solid #E74265;
+}
+
 #amplugged {
   height: 100vh;
   background-image: url("https://images.unsplash.com/photo-1484068793701-4e03840374c5?auto=format&fit=crop&w=750&q=80");
