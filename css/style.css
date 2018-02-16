@@ -438,13 +438,16 @@ iframe {
 
 footer {
   color: white;
-  background: #E74265;
 }
 
 footer p {
   font-size: 1.2em;
   text-align: center;
   padding: 1em;
+}
+
+.special-footer {
+  background: tomato;
 }
 
 /* media queries for responsive design */
