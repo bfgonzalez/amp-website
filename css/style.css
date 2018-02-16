@@ -386,7 +386,7 @@ img {
 }
 
 #amplitube-news {
-  height: 100vh;
+  height: auto;
   background: #212121;
 }
 
@@ -412,8 +412,8 @@ img {
 .article-overlay {
   width: 100%;
   background: black;
-  padding: 1em;
-  margin-top: 22.5em;
+  padding: 0.5em;
+  margin-top: 23.5em;
 }
 
 .article-overlay h3 {
