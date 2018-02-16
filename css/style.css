@@ -398,15 +398,28 @@ img {
 
 .article-container {
   height: 31em;
-  border: 2px solid  #E74265;
+  border: 3px solid  #E74265;
+  background: white;
+  cursor: pointer;
 }
 
-#news {
-  border: 2px solid #E74265;
+#news-article {
+  background: url("https://images.unsplash.com/photo-1447789624106-34acdd381c18?ixlib=rb-0.3.5&s=5a486aca457aaf27e16811d416e63149&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-#amplitube {
-  border: 2px solid #E74265;
+.article-overlay {
+  width: 100%;
+  background: black;
+  padding: 1em;
+  margin-top: 22.5em;
+}
+
+.article-overlay h3 {
+  color: white;
+  font-family: "Questrial", sans-serif;
+  font-size: 1.5em;
 }
 
 #amplugged {
