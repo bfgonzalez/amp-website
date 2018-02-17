@@ -397,7 +397,6 @@ img {
   height: 31em;
   border: 3px solid  #E74265;
   background: white;
-  cursor: pointer;
 }
 
 #news-article {
@@ -410,13 +409,20 @@ img {
   width: 100%;
   background: black;
   padding: 0.5em;
-  margin-top: 23.5em;
+  margin-top: 21.7em;
 }
 
 .article-overlay h3 {
   color: white;
   font-family: "Questrial", sans-serif;
   font-size: 1.5em;
+}
+
+.article-overlay p {
+  font-size: 1em;
+  color: #E74265;
+  margin-left: 0;
+  cursor: pointer;
 }
 
 #amplugged {
