@@ -115,22 +115,19 @@ h1 {
   background-color: #212121;
 }
 
+#dept-container {
+  padding: 0 3em 3em 3em;
+}
+
 #departments h1 {
   margin-bottom: 1em;
   letter-spacing: 0.2em;
-}
-
-#dept-container {
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-bottom: 3em;
 }
 
 .dept-block {
   min-height: 16em;
   color: white;
   border: 2px solid  #E74265;
-
 }
 
 .dept-icons {
@@ -536,6 +533,10 @@ footer p {
 
   p {
     font-size: 1.5em;
+  }
+
+  #dept-container {
+    padding: 0 3.5em 3em 3.5em;
   }
 
   iframe {
