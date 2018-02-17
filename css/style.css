@@ -405,6 +405,12 @@ img {
   background-repeat: no-repeat;
 }
 
+#amplitube-article {
+  background: url("https://images.unsplash.com/photo-1420161900862-9a86fa1f5c79?ixlib=rb-0.3.5&s=27b416c01a4ca9471903eaeb609ee63b&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .article-overlay {
   width: 100%;
   background: black;
