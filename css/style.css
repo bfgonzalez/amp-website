@@ -414,6 +414,7 @@ img {
   background: black;
   padding: 0.5em;
   margin-top: 21.7em;
+  cursor: pointer;
 }
 
 .article-overlay h3 {
@@ -426,7 +427,6 @@ img {
   font-size: 1em;
   color: #E74265;
   margin-left: 0;
-  cursor: pointer;
 }
 
 #amplugged {
