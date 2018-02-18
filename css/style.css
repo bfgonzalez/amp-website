@@ -94,6 +94,11 @@ p {
   line-height: 1.3em;
 }
 
+/* paragraph text for: What is AMP? */
+#org-desc {
+  margin-top: 0;
+}
+
 h1 {
   font-size: 2.2em;
   font-family: "Oswald", sans-serif;
