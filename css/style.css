@@ -3,12 +3,31 @@ body {
  margin: 0;
 }
 
+#amp-logo {
+  z-index: 1;
+  width: 2.7em;
+  height: 2.7em;
+  background-image: url("https://s9.postimg.org/eknpvmgb3/AMP-white-1024x7521.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 0;
+  margin: 0.7em 0 0 1em;
+  cursor: pointer;
+}
+
 /* persistent navigation */
 #nav-wrapper {
   z-index: 1;
-  position: fixed; 
-  padding-left: 1em;
+  position: absolute; 
   cursor: pointer;
+  right: 0;
+  margin: 1.6em 1em 0 0;
+  
+}
+
+#nav-wrapper a {
+  margin-left: 0.7em;
 }
 
 #menu { 
@@ -34,20 +53,6 @@ body {
 
 #sidenav a:hover {
   background-color: #E74265;
-}
-
-#amp-logo {
-  z-index: 1;
-  width: 2.5em;
-  height: 2.5em;
-  background-image: url("https://s9.postimg.org/eknpvmgb3/AMP-white-1024x7521.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  left: 0;
-  right: 0;
-  margin: auto;
-  margin-top: 0.7em;
-  position: absolute;
 }
 
 #social-icons {
@@ -137,13 +142,24 @@ h1 {
   background-color: #212121;
 }
 
-#dept-container {
-  padding: 0 3em 3em 3em;
-}
-
 #departments h1 {
   margin-bottom: 1em;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.05em;
+}
+
+/* department names */
+#departments h3 {
+  font-size: 1.5em;
+}
+
+/* department descriptions */
+#departments p {
+  font-size: 1.05em;
+  width: auto;
+}
+
+#dept-container {
+  padding: 0 3.5em 3em 3.5em;
 }
 
 .dept-block {
@@ -158,37 +174,12 @@ h1 {
   margin-right: 0.2em;
 }
 
-/* department names */
-#departments h3 {
-  font-size: 1.5em;
-}
-
-/* department descriptions */
-#departments p {
-  font-size: 1.05em;
-  width: auto;
-}
-
 h2 {
   font-size: 1.7em;
   font-family: "Oswald", sans-serif;
   color: #E74265;
   text-align: center;
   letter-spacing: 0.2em;
-}
-
-#artist-links-group {
-  letter-spacing: 1em;
-  margin-top: -1em;
-}
-
-.artist-links {
-  color: white;
-  font-size: 1.7em;
-}
-
-.artist-links:hover {
-  color: #E74265;
 }
 
 /* list of members for bands and soloist rosters */ 
@@ -267,7 +258,7 @@ li {
   color: white;
 }
 
-/* headers for members & social links for bands */
+/* headers for "Members" & "Links" for bands */
 .member-social {
   font-family: "Oswald", sans-serif;
   font-size: 1.3em;
@@ -326,6 +317,7 @@ li {
   background: #E74265;
 }
 
+/* toggle highlight style when roster member is 'clicked' */ 
 .pink-highlight {
   background: #E74265;
 }
@@ -413,7 +405,7 @@ img {
 }
 
 .article-container {
-  height: 31em;
+  height: 20em;
   border: 3px solid  #E74265;
 }
 
@@ -433,7 +425,7 @@ img {
   width: inherit;
   background: black;
   padding: 0.5em;
-  margin-top: 21.7em;
+  margin-top: 10.7em;
   cursor: pointer;
 }
 
@@ -544,6 +536,7 @@ footer p {
   iframe {
     height: 25em;
   }
+
 }
 
 @media only screen and (min-width: 768px) {
