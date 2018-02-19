@@ -4,55 +4,35 @@ body {
 }
 
 #amp-logo {
-  z-index: 1;
   width: 2.7em;
   height: 2.7em;
   background-image: url("https://s9.postimg.org/eknpvmgb3/AMP-white-1024x7521.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  position: absolute;
+  position: fixed;
   left: 0;
-  margin: 0.7em 0 0 1em;
-  cursor: pointer;
+  margin: -0.8em 0 0 0.8em;
 }
 
 /* persistent navigation */
 #nav-wrapper {
   z-index: 1;
-  position: absolute; 
+  position: fixed; 
   cursor: pointer;
   right: 0;
-  margin: 1.6em 1em 0 0;
-  
+  background: #E74265;
+  padding: 1em;
+  width: 100%;
 }
 
 #nav-wrapper a {
   margin-left: 0.7em;
+  float: right;
+  font-weight: bold;
 }
 
-#menu { 
- color: white;
- font-size: 2em;
- margin-bottom: -0.25em;
-}
-
-#sidenav {
-  display: none;
-  padding-left: 0.15em;
-  opacity: 0.9;
-}
-
-#sidenav a {
-  width: 7em; /* orig 7em*/
-  font-size: 1.2em;
+#nav-wrapper a:hover {
   color: white;
-  background-color: #212121; /*remove after*/
-  padding: 0.6em;
-  display: block;
-}
-
-#sidenav a:hover {
-  background-color: #E74265;
 }
 
 #social-icons {
@@ -536,7 +516,6 @@ footer p {
   iframe {
     height: 25em;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -544,11 +523,6 @@ footer p {
     font-size: 2.6em;
   }
 
-  #amp-logo {
-    width: 3.2em;
-    height: 3.2em;
-  }
-  
   #landing-text {
 	font-size: 3.5em;
 	width: 12em;
