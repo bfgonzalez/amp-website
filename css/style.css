@@ -3,14 +3,7 @@ body {
  margin: 0;
 }
 
-#home {
-  background-color: #212121;
-  height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1495651779359-881fde1808a6?auto=format&fit=crop&w=750&q=80");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
+/* persistent navigation */
 #nav-wrapper {
   z-index: 1;
   position: fixed; 
@@ -57,6 +50,35 @@ body {
   position: absolute;
 }
 
+#social-icons {
+  font-size: 2em;
+  letter-spacing: 0.2em;
+  padding: 0.3em 0 0.3em 0.5em;
+  position: absolute;
+  cursor: pointer;
+}
+
+#home {
+  background-color: #212121;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1495651779359-881fde1808a6?auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* "Bigger than the sound." */
+#landing-text {
+  font-size: 3em;
+  font-family: "Questrial", sans-serif;
+  position: absolute;
+  width: 6em;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* links */
 a {
   text-decoration: none;
   color: white;
@@ -67,19 +89,18 @@ a:hover {
   color: #E74265;
 }
 
-#social-icons {
-  font-size: 2em;
-  letter-spacing: 0.2em;
-  padding: 0.3em 0 0.3em 0.5em;
-  position: absolute;
-  cursor: pointer;
-}
 
+/* "What is AMP?", Vision, Mission, Thrust*/ 
 #about {
   background-color: #212121;
   padding: 1em;
   height: auto;
 }
+
+#vision-mission {
+  margin-top: 2.5em;
+}
+
 /* paragraph text for #about section */ 
 p {
   color: white;
@@ -99,6 +120,7 @@ p {
   margin-top: 0;
 }
 
+/* Primary section headers */ 
 h1 {
   font-size: 2.2em;
   font-family: "Oswald", sans-serif;
@@ -109,11 +131,7 @@ h1 {
   margin: 0;
 }
 
-#landing-text {
-  font-size: 5em;
-  font-family: "Questrial", sans-serif;
-}
-
+/* AMP Departments */
 #departments {
   height: auto;
   background-color: #212121;
@@ -159,14 +177,11 @@ h2 {
   letter-spacing: 0.2em;
 }
 
-#vision-mission {
-  margin-top: 2.5em;
-}
-
 #artist-links-group {
   letter-spacing: 1em;
   margin-top: -1em;
 }
+
 .artist-links {
   color: white;
   font-size: 1.7em;
@@ -516,12 +531,12 @@ footer p {
 }
 
 @media only screen and (max-width: 767px) {
-  #social-icons {
-    display: none;
-  }
-
   .band-tile, .soloist-tile {
     height: 25vh;
+  }
+  
+  #social-icons {
+    display: none;
   }
 }
 
@@ -529,7 +544,6 @@ footer p {
   iframe {
     height: 25em;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -538,8 +552,14 @@ footer p {
   }
 
   #amp-logo {
-    width: 3.5em;
-    height: 3.5em;
+    width: 3.2em;
+    height: 3.2em;
+  }
+  
+  #landing-text {
+	font-size: 3.5em;
+	width: 12em;
+	top: 15%;
   }
 
   h2 {
@@ -566,6 +586,10 @@ footer p {
 @media only screen and (min-width: 1440px) {
   #menu {
     font-size: 3em;
+  }
+  
+  #landing-text {
+	font-size: 5.5em;
   }
 
   #departments p {
