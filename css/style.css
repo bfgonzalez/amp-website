@@ -190,7 +190,7 @@ li {
   position: absolute;
   top: 45%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -55%);
 }
 
 #bands:hover {
@@ -239,21 +239,20 @@ li {
   opacity: 0.9;
 }
 
-#soloists h1 {
-  font-size: 2.7em;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
 #soloists:hover {
  opacity: 1;
  -webkit-transition: opacity ease-out 0.5s;
  -moz-transition: opacity ease-out 0.5s;
  -o-transition: opacity ease-out 0.5s;
  transition: opacity ease-out 0.5s;
+}
+
+#soloists h1 {
+  font-size: 2.7em;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -65%);
 }
 
 /* tiles for each soloist roster */ 
@@ -452,10 +451,6 @@ footer p {
   font-size: 1.2em;
   text-align: center;
   padding: 1em;
-}
-
-.special-footer {
-  background: tomato;
 }
 
 /* media queries for responsive design */
