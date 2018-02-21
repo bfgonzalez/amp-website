@@ -413,7 +413,8 @@ img {
   width: inherit;
   background: black;
   padding: 0.5em;
-  margin-top: 10.7em;
+  padding-top: 0.1em;
+  margin-top: 11.1em;
   cursor: pointer;
 }
 
