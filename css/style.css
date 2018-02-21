@@ -174,35 +174,23 @@ li {
   line-height: 1.3em;
 }
 
-/* font-size for "bands" and "soloists" headers */ 
-#artists h1 {
-  font-size: 2.7em;
-}
-
-/* social links for both bands and soloists */ 
-.artist-links {
-  color: white;
-  font-size: 1.7em;
-}
-
-.artist-links:hover {
-  color: #E74265;
-}
-
-/* grouped font awesome icons to utilize letter spacing */
-#artist-links-group {
-  letter-spacing: 1em;
-  margin-top: -1em;
-}
-
 /* upper half for bands of "artists" landing page */ 
 #bands {
  background-image: url("https://images.unsplash.com/photo-1497342860825-91ff79bb8a7c?auto=format&fit=crop&w=750&q=80"); 
  background-size: cover;
  background-repeat: no-repeat;
- height: 50vh;
+ height: 55vh;
  cursor: pointer;
  opacity: 0.9;
+ position: relative;
+}
+
+#bands h1 {
+  font-size: 2.7em;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #bands:hover {
@@ -246,10 +234,19 @@ li {
   background-image: url("https://images.unsplash.com/photo-1506026667107-3350a4c8eca6?auto=format&fit=crop&w=750&q=80");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 45vh;
   cursor: pointer;
   opacity: 0.9;
 }
+
+#soloists h1 {
+  font-size: 2.7em;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 #soloists:hover {
  opacity: 1;
@@ -322,6 +319,22 @@ li {
   background: #212121;
   border-radius: 0;
   padding: 1em;
+}
+
+/* social links for both bands and soloists */ 
+.artist-links {
+  color: white;
+  font-size: 1.7em;
+}
+
+.artist-links:hover {
+  color: #E74265;
+}
+
+/* grouped font awesome icons to utilize letter spacing */
+#artist-links-group {
+  letter-spacing: 1em;
+  margin-top: -1em;
 }
 
 /* for images used in pop-ups */ 
