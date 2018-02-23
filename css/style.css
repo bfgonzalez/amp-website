@@ -458,10 +458,6 @@ footer p {
   padding: 1em;
 }
 
-.special-footer {
-  background: tomato;
-}
-
 /* media queries for responsive design */
 * {
   -webkit-box-sizing: border-box;
