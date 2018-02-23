@@ -96,13 +96,12 @@ a:hover {
 /* paragraph text for #about section */ 
 p {
   color: white;
-  font: lighter 1em sans-serif white;
+  font: lighter 1em/1.3em sans-serif white;
   text-align: left;
   margin: auto;
   margin-top: -1em;
   width: 18em;
   display: block;
-  line-height: 1.3em;
 }
 
 /* paragraph text for: What is AMP? */
