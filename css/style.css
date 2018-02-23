@@ -62,8 +62,7 @@ body {
 
 /* "Bigger than the sound." */
 #landing-text {
-  font-size: 3em;
-  font-family: "Questrial", sans-serif;
+  font: 3em "Questrial", sans-serif;
   position: absolute;
   width: 6em;
   top: 40%;
@@ -97,9 +96,7 @@ a:hover {
 /* paragraph text for #about section */ 
 p {
   color: white;
-  font-size: 1em;
-  font-family: sans-serif;
-  font-weight: lighter;
+  font: lighter 1em sans-serif white;
   text-align: left;
   margin: auto;
   margin-top: -1em;
@@ -115,9 +112,7 @@ p {
 
 /* Primary section headers */ 
 h1 {
-  font-size: 2.2em;
-  font-family: "Oswald", sans-serif;
-  font-weight: bold;
+  font: bold 2.2em "Oswald", sans-serif;
   color: var(--pink);
   text-align: center;
   padding-top: 2em;
@@ -163,8 +158,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.7em;
-  font-family: "Oswald", sans-serif;
+  font: 1.7em "Oswald", sans-serif;
   color: var(--pink);
   text-align: center;
   letter-spacing: 0.2em;
@@ -232,8 +226,7 @@ li {
 
 /* headers for "Members" & "Links" for bands */
 .member-social {
-  font-family: "Oswald", sans-serif;
-  font-size: 1.3em;
+  font: 1.3em "Oswald", sans-serif;
   color: var(--pink);
 }
 
@@ -428,8 +421,7 @@ img {
 
 .article-overlay h3 {
   color: white;
-  font-family: "Questrial", sans-serif;
-  font-size: 1.5em;
+  font: 1.5em "Questrial", sans-serif;
 }
 
 .article-overlay p {
@@ -537,9 +529,9 @@ footer p {
   }
 
   #landing-text {
-	font-size: 3.5em;
-	width: 12em;
-	top: 15%;
+	  font-size: 3.5em;
+  	width: 12em;
+	  top: 15%;
   }
 
   h2 {
