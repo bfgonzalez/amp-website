@@ -3,68 +3,36 @@ body {
  margin: 0;
 }
 
-#home {
-  background-color: #212121;
-  height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1495651779359-881fde1808a6?auto=format&fit=crop&w=750&q=80");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#nav-wrapper {
-  z-index: 1;
-  position: fixed; 
-  padding-left: 1em;
-  cursor: pointer;
-}
-
-#menu { 
- color: white;
- font-size: 2em;
- margin-bottom: -0.25em;
-}
-
-#sidenav {
-  display: none;
-  padding-left: 0.15em;
-  opacity: 0.9;
-}
-
-#sidenav a {
-  width: 7em; /* orig 7em*/
-  font-size: 1.2em;
-  color: white;
-  background-color: #212121; /*remove after*/
-  padding: 0.6em;
-  display: block;
-}
-
-#sidenav a:hover {
-  background-color: #E74265;
-}
-
 #amp-logo {
-  z-index: 1;
-  width: 2.5em;
-  height: 2.5em;
+  width: 2.7em;
+  height: 2.7em;
   background-image: url("https://s9.postimg.org/eknpvmgb3/AMP-white-1024x7521.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  position: fixed;
   left: 0;
+  margin: -0.8em 0 0 0.8em;
+}
+
+/* persistent navigation */
+#nav-wrapper {
+  z-index: 1;
+  position: fixed; 
+  cursor: pointer;
   right: 0;
-  margin: auto;
-  margin-top: 0.7em;
-  position: absolute;
+  background: #E74265;
+  padding: 1em;
+  width: 100%;
 }
 
-a {
-  text-decoration: none;
+#nav-wrapper a {
+  margin-left: 0.7em;
+  float: right;
+  font-weight: bold;
+}
+
+#nav-wrapper a:hover {
   color: white;
-}
-
-/* mouse over link */
-a:hover {
-  color: #E74265;
 }
 
 #social-icons {
@@ -75,11 +43,49 @@ a:hover {
   cursor: pointer;
 }
 
+#home {
+  background-color: #212121;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1495651779359-881fde1808a6?auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* "Bigger than the sound." */
+#landing-text {
+  font-size: 3em;
+  font-family: "Questrial", sans-serif;
+  position: absolute;
+  width: 6em;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* links */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #E74265;
+}
+
+
+/* "What is AMP?", Vision, Mission, Thrust*/ 
 #about {
   background-color: #212121;
   padding: 1em;
   height: auto;
 }
+
+#vision-mission {
+  margin-top: 2.5em;
+}
+
 /* paragraph text for #about section */ 
 p {
   color: white;
@@ -99,6 +105,7 @@ p {
   margin-top: 0;
 }
 
+/* Primary section headers */ 
 h1 {
   font-size: 2.2em;
   font-family: "Oswald", sans-serif;
@@ -109,23 +116,30 @@ h1 {
   margin: 0;
 }
 
-#landing-text {
-  font-size: 5em;
-  font-family: "Questrial", sans-serif;
-}
-
+/* AMP Departments */
 #departments {
   height: auto;
   background-color: #212121;
 }
 
-#dept-container {
-  padding: 0 3em 3em 3em;
-}
-
 #departments h1 {
   margin-bottom: 1em;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.14em;
+}
+
+/* department names */
+#departments h3 {
+  font-size: 1.5em;
+}
+
+/* department descriptions */
+#departments p {
+  font-size: 1.05em;
+  width: auto;
+}
+
+#dept-container {
+  padding: 0 2em 1em 2em;
 }
 
 .dept-block {
@@ -140,40 +154,12 @@ h1 {
   margin-right: 0.2em;
 }
 
-/* department names */
-#departments h3 {
-  font-size: 1.5em;
-}
-
-/* department descriptions */
-#departments p {
-  font-size: 1.05em;
-  width: auto;
-}
-
 h2 {
   font-size: 1.7em;
   font-family: "Oswald", sans-serif;
   color: #E74265;
   text-align: center;
   letter-spacing: 0.2em;
-}
-
-#vision-mission {
-  margin-top: 2.5em;
-}
-
-#artist-links-group {
-  letter-spacing: 1em;
-  margin-top: -1em;
-}
-.artist-links {
-  color: white;
-  font-size: 1.7em;
-}
-
-.artist-links:hover {
-  color: #E74265;
 }
 
 /* list of members for bands and soloist rosters */ 
@@ -188,39 +174,23 @@ li {
   line-height: 1.3em;
 }
 
-/* landing page for artists section */ 
-#artists {
-  height: 100vh;
-}
-
-#artists h1 {
-  font-size: 2.7em;
-}
-
-/* social links for both bands and soloists */ 
-.artist-links {
-  color: white;
-  font-size: 1.7em;
-}
-
-.artist-links:hover {
-  color: #E74265;
-}
-
-/* grouped font awesome icons to utilize letter spacing */
-#artist-links-group {
-  letter-spacing: 1em;
-  margin-top: -1em;
-}
-
 /* upper half for bands of "artists" landing page */ 
 #bands {
  background-image: url("https://images.unsplash.com/photo-1497342860825-91ff79bb8a7c?auto=format&fit=crop&w=750&q=80"); 
  background-size: cover;
  background-repeat: no-repeat;
- height: 50vh;
+ height: 55vh;
  cursor: pointer;
  opacity: 0.9;
+ position: relative;
+}
+
+#bands h1 {
+  font-size: 2.7em;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -55%);
 }
 
 #bands:hover {
@@ -252,7 +222,7 @@ li {
   color: white;
 }
 
-/* headers for members & social links for bands */
+/* headers for "Members" & "Links" for bands */
 .member-social {
   font-family: "Oswald", sans-serif;
   font-size: 1.3em;
@@ -264,7 +234,7 @@ li {
   background-image: url("https://images.unsplash.com/photo-1506026667107-3350a4c8eca6?auto=format&fit=crop&w=750&q=80");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 45vh;
   cursor: pointer;
   opacity: 0.9;
 }
@@ -275,6 +245,14 @@ li {
  -moz-transition: opacity ease-out 0.5s;
  -o-transition: opacity ease-out 0.5s;
  transition: opacity ease-out 0.5s;
+}
+
+#soloists h1 {
+  font-size: 2.7em;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -65%);
 }
 
 /* tiles for each soloist roster */ 
@@ -311,6 +289,7 @@ li {
   background: #E74265;
 }
 
+/* toggle highlight style when roster member is 'clicked' */ 
 .pink-highlight {
   background: #E74265;
 }
@@ -339,6 +318,22 @@ li {
   background: #212121;
   border-radius: 0;
   padding: 1em;
+}
+
+/* social links for both bands and soloists */ 
+.artist-links {
+  color: white;
+  font-size: 1.7em;
+}
+
+.artist-links:hover {
+  color: #E74265;
+}
+
+/* grouped font awesome icons to utilize letter spacing */
+#artist-links-group {
+  letter-spacing: 1em;
+  margin-top: -1em;
 }
 
 /* for images used in pop-ups */ 
@@ -398,7 +393,7 @@ img {
 }
 
 .article-container {
-  height: 31em;
+  height: 20em;
   border: 3px solid  #E74265;
 }
 
@@ -418,7 +413,8 @@ img {
   width: inherit;
   background: black;
   padding: 0.5em;
-  margin-top: 21.7em;
+  padding-top: 0.1em;
+  margin-top: 11.1em;
   cursor: pointer;
 }
 
@@ -512,12 +508,12 @@ footer p {
 }
 
 @media only screen and (max-width: 767px) {
-  #social-icons {
-    display: none;
-  }
-
   .band-tile, .soloist-tile {
     height: 25vh;
+  }
+  
+  #social-icons {
+    display: none;
   }
 }
 
@@ -525,7 +521,6 @@ footer p {
   iframe {
     height: 25em;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -533,9 +528,10 @@ footer p {
     font-size: 2.6em;
   }
 
-  #amp-logo {
-    width: 3.5em;
-    height: 3.5em;
+  #landing-text {
+	font-size: 3.5em;
+	width: 12em;
+	top: 15%;
   }
 
   h2 {
@@ -562,6 +558,10 @@ footer p {
 @media only screen and (min-width: 1440px) {
   #menu {
     font-size: 3em;
+  }
+  
+  #landing-text {
+	font-size: 5.5em;
   }
 
   #departments p {
