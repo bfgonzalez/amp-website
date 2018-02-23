@@ -1,3 +1,11 @@
+
+/* CSS Variables */
+:root {
+ --pink: #E74265;
+ --pink-secondary: #ff0055;
+ --dark-grey: #212121;
+}
+
 body { 
  font-family: "Questrial", sans-serif;
  margin: 0;
@@ -20,7 +28,7 @@ body {
   position: fixed; 
   cursor: pointer;
   right: 0;
-  background: #E74265;
+  background: var(--pink);
   padding: 1em;
   width: 100%;
 }
@@ -44,7 +52,7 @@ body {
 }
 
 #home {
-  background-color: #212121;
+  background-color: var(--dark-grey);
   height: 100vh;
   background-image: url("https://images.unsplash.com/photo-1495651779359-881fde1808a6?auto=format&fit=crop&w=750&q=80");
   background-size: cover;
@@ -71,13 +79,13 @@ a {
 
 /* mouse over link */
 a:hover {
-  color: #E74265;
+  color: var(--pink);
 }
 
 
 /* "What is AMP?", Vision, Mission, Thrust*/ 
 #about {
-  background-color: #212121;
+  background-color: var(--dark-grey);
   padding: 1em;
   height: auto;
 }
@@ -110,7 +118,7 @@ h1 {
   font-size: 2.2em;
   font-family: "Oswald", sans-serif;
   font-weight: bold;
-  color: #E74265;
+  color: var(--pink);
   text-align: center;
   padding-top: 2em;
   margin: 0;
@@ -119,7 +127,7 @@ h1 {
 /* AMP Departments */
 #departments {
   height: auto;
-  background-color: #212121;
+  background-color: var(--dark-grey);
 }
 
 #departments h1 {
@@ -145,19 +153,19 @@ h1 {
 .dept-block {
   min-height: 16em;
   color: white;
-  border: 2px solid  #E74265;
+  border: 2px solid var(--pink);
 }
 
 .dept-icons {
   font-size: 3.5em;
-  color: #E74265;
+  color: var(--pink);
   margin-right: 0.2em;
 }
 
 h2 {
   font-size: 1.7em;
   font-family: "Oswald", sans-serif;
-  color: #E74265;
+  color: var(--pink);
   text-align: center;
   letter-spacing: 0.2em;
 }
@@ -203,13 +211,13 @@ li {
 
 /* tiles for each band */
 .band-tile {
-  background: #212121;
+  background: var(--dark-grey);
   height: 50vh;
   cursor: pointer;
 }
 
 .band-tile:hover {
-  background: linear-gradient(to right, #E74265, #ff0055);
+  background: linear-gradient(to right, var(--pink), var(--pink-secondary));
 }
 
 /* band names */ 
@@ -226,7 +234,7 @@ li {
 .member-social {
   font-family: "Oswald", sans-serif;
   font-size: 1.3em;
-  color: #E74265;
+  color: var(--pink);
 }
 
 /* lower half for soloists of "artists" landing page */ 
@@ -257,13 +265,13 @@ li {
 
 /* tiles for each soloist roster */ 
 .soloist-tile {
-  background: #212121;
+  background: var(--dark-grey);
   height: 50vh;
   cursor: pointer;
 }
 
 .soloist-tile:hover {
-  background: linear-gradient(to right, #E74265, #ff0055);
+  background: linear-gradient(to right, var(--pink), var(--pink-secondary));
 }
 
 /* soloist rosters */ 
@@ -286,12 +294,12 @@ li {
 }
 
 .roster-members li:hover {
-  background: #E74265;
+  background: var(--pink);
 }
 
 /* toggle highlight style when roster member is 'clicked' */ 
 .pink-highlight {
-  background: #E74265;
+  background: var(--pink);
 }
 
 /* more details of soloists: genres, soundcloud */ 
@@ -308,14 +316,14 @@ li {
 
 .more-info p {
   text-align: center;
-  color: #E74265;
+  color: var(--pink);
 }
 
 /* pop-up windows used to display details of bands and soloists */ 
 .modal {
   height: auto;
   width: 86vw;
-  background: #212121;
+  background: var(--dark-grey);
   border-radius: 0;
   padding: 1em;
 }
@@ -327,7 +335,7 @@ li {
 }
 
 .artist-links:hover {
-  color: #E74265;
+  color: var(--pink);
 }
 
 /* grouped font awesome icons to utilize letter spacing */
@@ -383,7 +391,7 @@ img {
 
 #amplitube-news {
   height: auto;
-  background: #212121;
+  background: var(--dark-grey);
 }
 
 #amplitube-news h1 {
@@ -394,7 +402,7 @@ img {
 
 .article-container {
   height: 20em;
-  border: 3px solid  #E74265;
+  border: 3px solid var(--pink);
 }
 
 #news-article {
@@ -426,7 +434,7 @@ img {
 
 .article-overlay p {
   font-size: 1em;
-  color: #E74265;
+  color: var(--pink);
   margin-left: 0;
 }
 
