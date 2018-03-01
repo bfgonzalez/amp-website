@@ -96,7 +96,7 @@ a:hover {
 /* paragraph text for #about section */ 
 p {
   color: white;
-  font: lighter 1em/1.3em "Questrial", sans-serif white;
+  font: lighter 2em/1.5em "Questrial", sans-serif white;
   text-align: left;
   margin: auto;
   margin-top: -1em;
@@ -131,12 +131,13 @@ h1 {
 
 /* department names */
 #departments h3 {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 /* department descriptions */
 #departments p {
-  font-size: 1.05em;
+  font-size: 1em;
+  line-height: 1.3em;
   width: auto;
 }
 
@@ -551,6 +552,16 @@ footer p {
   
   .modal p {
     font-size: 1.1em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #departments h3 {
+    font-size: 1.7em;
+  }
+
+  #departments p {
+    font-size: 1.2em;
   }
 }
 
