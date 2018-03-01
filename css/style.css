@@ -96,7 +96,7 @@ a:hover {
 /* paragraph text for #about section */ 
 p {
   color: white;
-  font: lighter 1em/1.3em sans-serif white;
+  font: lighter 1em/1.3em "Questrial", sans-serif white;
   text-align: left;
   margin: auto;
   margin-top: -1em;
