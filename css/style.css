@@ -96,11 +96,14 @@ a:hover {
 /* paragraph text for #about section */ 
 p {
   color: white;
-  font: lighter 2em/1.5em "Questrial", sans-serif white;
+  font-family: "Questrial", sans-serif;
+  font-size: 1em;
+  font-weight: lighter;
+  line-height: 1.5em;
   text-align: left;
   margin: auto;
   margin-top: -1em;
-  width: 18em;
+  width: 16em;
   display: block;
 }
 
