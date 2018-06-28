@@ -34,7 +34,7 @@ body {
 }
 
 #nav-wrapper a {
-  margin-left: 0.7em;
+  margin-left: 2.5em;
   float: right;
   font-weight: bold;
 }
@@ -96,20 +96,20 @@ a:hover {
 /* paragraph text for #about section */ 
 p {
   color: white;
-  font-family: "Questrial", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1em;
   font-weight: lighter;
   line-height: 1.5em;
   text-align: left;
   margin: auto;
-  margin-top: -1em;
+  margin-top: -0.5em;
   width: 16em;
   display: block;
 }
 
 /* paragraph text for: What is AMP? */
 #org-desc {
-  margin-top: 0;
+  margin-top: 0.5em;
 }
 
 /* Primary section headers */ 
@@ -140,7 +140,7 @@ h1 {
 /* department descriptions */
 #departments p {
   font-size: 1em;
-  line-height: 1.3em;
+  line-height: 1.5em;
   width: auto;
 }
 
@@ -149,7 +149,7 @@ h1 {
 }
 
 .dept-block {
-  min-height: 16em;
+  min-height: 18em;
   color: white;
   border: 2px solid var(--pink);
 }
