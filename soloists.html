@@ -1,651 +1,637 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <title>AMP Website - Soloists</title>
-  <meta property="og:title" content="AMP Website - Soloists" />
+  <head>
+    <meta charset="UTF-8">
+    <title>AMP Website - Soloists</title>
+    <meta property="og:title" content="AMP Website - Soloists" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Questrial|Oswald:bold" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
 
-<link href="https://fonts.googleapis.com/css?family=Questrial|Oswald:bold" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 
-<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
-<!-- jquery modal plug-in -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-  
-  <link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body>
-  
-  <div id="nav-wrapper">
-    <a href="index.html"><div id="amp-logo"></div></a>
-    <a href="latest.html">LATEST</a>
-    <a href="artists.html">ARTISTS</a> 
-    <a href="index.html">HOME</a>
-  </div> 
-	
-    <!-- <div id="social-icons">
-      <a href="https://twitter.com/AMPateneo" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
-      <a href="https://www.facebook.com/ateneomusicianspool/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
-      <a href="https://www.youtube.com/user/ateneomusicianspool" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
-    </div> -->
-	
-<!-- soloists --> 
-<section>
-  <div class="row">
-    <div id="vocals" class="soloist-tile col-4 col-m-12"><h2>VOCALS</h2></div>
-    <div id="guitar" class="soloist-tile col-4 col-m-6"><h2>GUITAR</h2></div>
-    <div id="bass" class="soloist-tile col-4 col-m-6"><h2>BASS</h2></div>
-  </div>
-  <div class="row">
-    <div id="drums" class="soloist-tile col-3 col-m-6"><h2>DRUMS</h2></div>
-    <div id="keys" class="soloist-tile col-3 col-m-6"><h2>KEYS</h2></div>
-    <div id="misc" class="soloist-tile col-3 col-m-6"><h2>MISC</h2></div>
-    <div id="producer" class="soloist-tile col-3 col-m-6"><h2>PRODUCER</h2></div>
-  </div>
-</section>
-
-<!-- modals --> 
-<article id="modal-1" class="modal">
-  <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-0.3.5&s=0923568aba6676f6293802b497219bf6&auto=format&fit=crop&w=750&q=80" alt="microphone">
-  <h2>VOCALS</h2>
-  <ul class="roster-members"> 
-    <li> Christi Gail Viaje 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Ballad &#8226 Jazz &#8226 Indie &#8226 Pop &#8226 RnB</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/gaildoesmusic" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
+  <body>
+    <div id="nav-wrapper">
+      <a href="index.html"><div id="amp-logo"></div></a>
+      <a href="latest.html">LATEST</a>
+      <a href="artists.html">ARTISTS</a>
+      <a href="index.html">HOME</a>
+    </div>
+    <!-- soloists -->
+    <section>
+      <div class="row">
+        <div id="vocals" class="soloist-tile col-4 col-m-12"><h2>VOCALS</h2></div>
+        <div id="guitar" class="soloist-tile col-4 col-m-6"><h2>GUITAR</h2></div>
+        <div id="bass" class="soloist-tile col-4 col-m-6"><h2>BASS</h2></div>
       </div>
-    </li>
-
-    <li> Beatrice Marie Bustamante 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Indie &#8226 Pop &#8226 RnB</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/beabustamante" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
+      <div class="row">
+        <div id="drums" class="soloist-tile col-3 col-m-6"><h2>DRUMS</h2></div>
+        <div id="keys" class="soloist-tile col-3 col-m-6"><h2>KEYS</h2></div>
+        <div id="misc" class="soloist-tile col-3 col-m-6"><h2>MISC</h2></div>
+        <div id="producer" class="soloist-tile col-3 col-m-6"><h2>PRODUCER</h2></div>
       </div>
-    </li>
+    </section>
 
-    <li> Alexandra Martin 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Indie &#8226 RnB</p>
-      </div>
-    </li>
+    <!-- modals -->
+    <article id="modal-1" class="modal">
+      <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-0.3.5&s=0923568aba6676f6293802b497219bf6&auto=format&fit=crop&w=750&q=80" alt="microphone">
+      <h2>VOCALS</h2>
+      <ul class="roster-members">
+        <li> Christi Gail Viaje
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Ballad &#8226 Jazz &#8226 Indie &#8226 Pop &#8226 RnB</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/gaildoesmusic" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Celine Francisco 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Ballad Rock</p>
-      </div>
-    </li>
+        <li> Beatrice Marie Bustamante
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Indie &#8226 Pop &#8226 RnB</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/beabustamante" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Mary Eda Cimafranca 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Balad &#8226 Bosa Nova &#8226 Indie &#8226 Jazz &#8226 RnB</p>
-      </div>
-    </li>
+        <li> Alexandra Martin
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Indie &#8226 RnB</p>
+          </div>
+        </li>
 
-    <li> Rafael Hizon 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Alternative Rock &#8226 Pop Rock</p>
-      </div>
-    </li>
+        <li> Celine Francisco
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Ballad Rock</p>
+          </div>
+        </li>
 
-    <li> Bianca Isabel Henares 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Indie &#8226 Pop</p>
-     </div>
-    </li>
+        <li> Mary Eda Cimafranca
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Balad &#8226 Bosa Nova &#8226 Indie &#8226 Jazz &#8226 RnB</p>
+          </div>
+        </li>
 
-    <li> Jude Francis Rebosa 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Pop</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/jayrebosa" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Rafael Hizon
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Alternative Rock &#8226 Pop Rock</p>
+          </div>
+        </li>
 
-    <li> Lance Salazar 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Blues &#8226 Indie &#8226 Jazz &#8226 Pop &#8226 RnB</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/lance-gonzales-salazar" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Bianca Isabel Henares
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Indie &#8226 Pop</p>
+          </div>
+        </li>
 
-    <li> Morritz Jobcresvir Abella 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Ballad &#8226 Pop &#8226 Rock &#8226 Soul</p>
-     </div>
-    </li>
+        <li> Jude Francis Rebosa
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Pop</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/jayrebosa" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Austin Guiliano Tan 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Alternative &#8226 Chill Acoustic &#8226 Indie</p>
-     </div>
-    </li>
+        <li> Lance Salazar
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Blues &#8226 Indie &#8226 Jazz &#8226 Pop &#8226 RnB</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/lance-gonzales-salazar" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Dominique Yu 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Chill</p>
-     </div>
-    </li>
+        <li> Morritz Jobcresvir Abella
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Ballad &#8226 Pop &#8226 Rock &#8226 Soul</p>
+          </div>
+        </li>
 
-    <li> Alf Dolina 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Pop &#8226 RnB &#8226 Soul/Jazz</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/alfonso-dolina" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Austin Guiliano Tan
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Alternative &#8226 Chill Acoustic &#8226 Indie</p>
+          </div>
+        </li>
 
-    <li> Rianna Arcos 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Pop &#8226 RnB &#8226 Soul/Jazz</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/soundcloud.com/riannaarcosN" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Dominique Yu
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Chill</p>
+          </div>
+        </li>
 
-    <li> Nina Juan 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Blues &#8226 Pop &#8226 RnB &#8226 Soul</p>
-     </div>
-    </li>
+        <li> Alf Dolina
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Pop &#8226 RnB &#8226 Soul/Jazz</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/alfonso-dolina" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Andrea Ramos 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Dream Pop &#8226 Electronic &#8226 Indie</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/soundcloud.com/andreamicheline" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Rianna Arcos
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Pop &#8226 RnB &#8226 Soul/Jazz</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/soundcloud.com/riannaarcosN" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Jane Ong 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Pop &#8226 RnB</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/xandre_jane" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Nina Juan
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Blues &#8226 Pop &#8226 RnB &#8226 Soul</p>
+          </div>
+        </li>
 
-    <li> Babu Dadap 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Blues &#8226 Pop &#8226 Rock &#8226 Soul &#8226 RnB</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/babu-dadap" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Andrea Ramos
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Dream Pop &#8226 Electronic &#8226 Indie</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/soundcloud.com/andreamicheline" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Tori Dariza 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Pop &#8226 RnB</p>
-     </div>
-    </li>
+        <li> Jane Ong
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Pop &#8226 RnB</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/xandre_jane" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Liara Prado 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Pop &#8226 RnB</p>
-     </div>
-    </li>
+        <li> Babu Dadap
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Blues &#8226 Pop &#8226 Rock &#8226 Soul &#8226 RnB</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/babu-dadap" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Kelly Nicolas 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Pop &#8226 RnB &#8226 Soul/Jazz</p>
-     </div>
-    </li>
+        <li> Tori Dariza
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Pop &#8226 RnB</p>
+          </div>
+        </li>
 
-    <li> Jam Binay 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Classical &#8226 Pop</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/alyssajamille" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Liara Prado
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Pop &#8226 RnB</p>
+          </div>
+        </li>
 
-    <li> Bianca Abad 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Electronic Pop &#8226 Pop Indie</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/www.soundcloud.com/bianca-m-abad" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Kelly Nicolas
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Pop &#8226 RnB &#8226 Soul/Jazz</p>
+          </div>
+        </li>
 
-    <li> Precious Capistrano 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Electronic &#8226 Indie Folk &#8226 Pop</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/www.soundcloud.com/preshcapo" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
-  </ul>
-</article>
+        <li> Jam Binay
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Classical &#8226 Pop</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/alyssajamille" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-<article id="modal-2" class="modal">
-  <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b24249de4d2cc572f850669915e72df4&auto=format&fit=crop&w=750&q=80" alt="guitar">
-  <h2>GUITAR</h2>
-  <ul class="roster-members">
-    <li> Philip Neri Libunao 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Power Metal &#8226 Rock</p>
-      </div>
-    </li>
+        <li> Bianca Abad
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Electronic Pop &#8226 Pop Indie</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/www.soundcloud.com/bianca-m-abad" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Jeric Gibrael Santos 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Alternative &#8226 Jazz &#8226 Lo-Fi &#8226 Rock &#8226 All kinds of metal (djent, metalcore, post-hardcore)</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/thatkidfromthatplace" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Precious Capistrano
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Electronic &#8226 Indie Folk &#8226 Pop</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/www.soundcloud.com/preshcapo" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </article>
 
-    <li> Matthew James Mendiola 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Hard Rock &#8226 Pop Rock</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/ibanezrocker-1" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+    <article id="modal-2" class="modal">
+      <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b24249de4d2cc572f850669915e72df4&auto=format&fit=crop&w=750&q=80" alt="guitar">
+      <h2>GUITAR</h2>
+      <ul class="roster-members">
+        <li> Philip Neri Libunao
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Power Metal &#8226 Rock</p>
+          </div>
+        </li>
 
-    <li> Lorenzo Ian Go 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Classical &#8226 Contemporary</p>
-      </div>
-    </li>
+        <li> Jeric Gibrael Santos
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Alternative &#8226 Jazz &#8226 Lo-Fi &#8226 Rock &#8226 All kinds of metal (djent, metalcore, post-hardcore)</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/thatkidfromthatplace" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Benjamin Lorenzo Ledesma 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Indie &#8226 Jazz &#8226 Soul</p>
-      </div>
-    </li>
+        <li> Matthew James Mendiola
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Hard Rock &#8226 Pop Rock</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/ibanezrocker-1" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Drei Zamuco
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Alternative/Punk Rock</p>
-      </div>
-    </li>
+        <li> Lorenzo Ian Go
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Classical &#8226 Contemporary</p>
+          </div>
+        </li>
 
-    <li> TJ Castillon 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p> Blues &#8226 Post Rock &#8226 RnB &#8226 Soul</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/teejcasti" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Benjamin Lorenzo Ledesma
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Indie &#8226 Jazz &#8226 Soul</p>
+          </div>
+        </li>
 
-    <li> Miguel Fernando 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Alternative Rock &#8226 Blues &#8226 Country &#8226 Folk &#8226 Funk</p>
-      </div>
-    </li>
+        <li> Drei Zamuco
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Alternative/Punk Rock</p>
+          </div>
+        </li>
 
-    <li> Babu Dadap 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Blues &#8226 Pop &#8226 Rock &#8226 Soul &#8226 RnB</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/babu-dadap" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> TJ Castillon
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p> Blues &#8226 Post Rock &#8226 RnB &#8226 Soul</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/teejcasti" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Miguel Galicia 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Blues &#8226 Folk &#8226 Soul</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/miguelgalicia" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
-    
-    <li> Rafael Ortile 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Blues &#8226 Classical Rock &#8226 Metal &#8226 Pop Punk</p>
-      </div>
-    </li>
+        <li> Miguel Fernando
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Alternative Rock &#8226 Blues &#8226 Country &#8226 Folk &#8226 Funk</p>
+          </div>
+        </li>
 
-    <li> Migi Soriano </li>
-  </ul>
-</article>
+        <li> Babu Dadap
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Blues &#8226 Pop &#8226 Rock &#8226 Soul &#8226 RnB</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/babu-dadap" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-<article id="modal-3" class="modal">
-  <img src="https://images.unsplash.com/photo-1462965326201-d02e4f455804?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6621411ef2f393ada4c446241a56f4d5&auto=format&fit=crop&w=750&q=80" alt="bass guitar">
-  <h2>BASS</h2>
-  <ul class="roster-members">
-    <li> Bernard Patrick Pingol 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Dance-y things &#8226 Pop &#8226 Rock &#8226 Sad things</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/burnnard" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Miguel Galicia
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Blues &#8226 Folk &#8226 Soul</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/miguelgalicia" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> TJ Castillon 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Blues &#8226 Christian Music &#8226 Pop</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/teejcasti" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Rafael Ortile
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Blues &#8226 Classical Rock &#8226 Metal &#8226 Pop Punk</p>
+          </div>
+        </li>
 
-    <li> Seyoung Park 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Christian Music &#8226 Hillsong &#8226 Pop &#8226 Rock</p>
-      </div>
-    </li>
+        <li> Migi Soriano </li>
+      </ul>
+    </article>
 
-    <li> Juaneo Dim Fernando 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Funk &#8226 Pop</p>
-      </div>
-    </li>
+    <article id="modal-3" class="modal">
+      <img src="https://images.unsplash.com/photo-1462965326201-d02e4f455804?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6621411ef2f393ada4c446241a56f4d5&auto=format&fit=crop&w=750&q=80" alt="bass guitar">
+      <h2>BASS</h2>
+      <ul class="roster-members">
+        <li> Bernard Patrick Pingol
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Dance-y things &#8226 Pop &#8226 Rock &#8226 Sad things</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/burnnard" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Luigi Del Rosario 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Alternative Rock &#8226 Indie &#8226 Jazz &#8226 Pop Punk</p>
-      </div>
-    </li>
-  </ul>
-</article>
+        <li> TJ Castillon
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Blues &#8226 Christian Music &#8226 Pop</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/teejcasti" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-<article id="modal-4" class="modal">
-  <img src="https://images.unsplash.com/photo-1461784121038-f088ca1e7714?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fdb6ebf5fff5c45057753ff1191fa0be&auto=format&fit=crop&w=750&q=80" alt="drum kit">
-  <h2>DRUMS</h2>
-  <ul class="roster-members">
-    <li> Jaime Luis Fedival 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Pop &#8226 Rock &#8226 Anything else</p>
-      </div>
-    </li>
+        <li> Seyoung Park
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Christian Music &#8226 Hillsong &#8226 Pop &#8226 Rock</p>
+          </div>
+        </li>
 
-    <li> Drei Zamuco 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Alternative/Punk Rock</p>
-      </div>
-    </li>
-  </ul>
-</article>
+        <li> Juaneo Dim Fernando
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Funk &#8226 Pop</p>
+          </div>
+        </li>
 
-<article id="modal-5" class="modal">
-  <img src="https://images.unsplash.com/photo-1471614654469-512ee6a4397a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=322bab809d5e040ea3b53739f3112ae9&auto=format&fit=crop&w=750&q=80" alt="keyboard">
-  <h2>KEYS</h2>
-  <ul class="roster-members">
-    <li> Celine Francisco 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Contemporary &#8226 Jazz &#8226 Rock</p>
-      </div>
-    </li>
+        <li> Luigi Del Rosario
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Alternative Rock &#8226 Indie &#8226 Jazz &#8226 Pop Punk</p>
+          </div>
+        </li>
+      </ul>
+    </article>
 
-    <li> Lorenzo Ian Go 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Classical &#8226 Contemporary &#8226 Worship</p>
-      </div>
-    </li>
+    <article id="modal-4" class="modal">
+      <img src="https://images.unsplash.com/photo-1461784121038-f088ca1e7714?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fdb6ebf5fff5c45057753ff1191fa0be&auto=format&fit=crop&w=750&q=80" alt="drum kit">
+      <h2>DRUMS</h2>
+      <ul class="roster-members">
+        <li> Jaime Luis Fedival
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Pop &#8226 Rock &#8226 Anything else</p>
+          </div>
+        </li>
 
-    <li> Cheska Rebosa 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Classical &#8226 Contemporary &#8226 Pop &#8226 Progressive &#8226 Anything but Jazz and Blues</p>
-      </div>
-    </li>
+        <li> Drei Zamuco
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Alternative/Punk Rock</p>
+          </div>
+        </li>
+      </ul>
+    </article>
 
-    <li> Joshua Tan 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Ballad &#8226 Jazz &#8226 Pop</p>
-      </div>
-    </li>
+    <article id="modal-5" class="modal">
+      <img src="https://images.unsplash.com/photo-1471614654469-512ee6a4397a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=322bab809d5e040ea3b53739f3112ae9&auto=format&fit=crop&w=750&q=80" alt="keyboard">
+      <h2>KEYS</h2>
+      <ul class="roster-members">
+        <li> Celine Francisco
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Contemporary &#8226 Jazz &#8226 Rock</p>
+          </div>
+        </li>
 
-    <li> Daniel Carlos 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Classical &#8226 Contemporary</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/pandan-1" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Lorenzo Ian Go
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Classical &#8226 Contemporary &#8226 Worship</p>
+          </div>
+        </li>
 
-    <li> Miguel Lim 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Ballad &#8226 Classical &#8226 Pop</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/itsdamigz" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
-  </ul>
-</article>
+        <li> Cheska Rebosa
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Classical &#8226 Contemporary &#8226 Pop &#8226 Progressive &#8226 Anything but Jazz and Blues</p>
+          </div>
+        </li>
 
-<article id="modal-6" class="modal">
-  <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=da90b7e324f7b8884b268bb4aaf62fcb&auto=format&fit=crop&w=750&q=80" alt="DJ turntable">
-  <h2>MISC</h2>
-  <ul class="roster-members">
-    <li> Mary Jo Thomas H. Vitug 
-      <div class="more-info">
-        <h3 class="member-social">INSTRUMENT</h3>
-        <p>Rap</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/mj-vitug" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Joshua Tan
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Ballad &#8226 Jazz &#8226 Pop</p>
+          </div>
+        </li>
 
-    <li> Samantha Camille M. Eustaquio 
-      <div class="more-info">
-        <h3 class="member-social">INSTRUMENT</h3>
-        <p>Ukelele</p>
-      </div>
-    </li>
+        <li> Daniel Carlos
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Classical &#8226 Contemporary</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/pandan-1" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Joshe Calvin Tiu 
-      <div class="more-info">
-        <h3 class="member-social">INSTRUMENT</h3>
-        <p>Alto Sax</p>
-      </div>
-    </li>
+        <li> Miguel Lim
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Ballad &#8226 Classical &#8226 Pop</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/itsdamigz" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </article>
 
-    <li> Christine Denise V. Cu 
-      <div class="more-info">
-        <h3 class="member-social">INSTRUMENT</h3>
-        <p>Violin</p>
-      </div>
-    </li>
+    <article id="modal-6" class="modal">
+      <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=da90b7e324f7b8884b268bb4aaf62fcb&auto=format&fit=crop&w=750&q=80" alt="DJ turntable">
+      <h2>MISC</h2>
+      <ul class="roster-members">
+        <li> Mary Jo Thomas H. Vitug
+          <div class="more-info">
+            <h3 class="member-social">INSTRUMENT</h3>
+            <p>Rap</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/mj-vitug" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Jose Enrique B. Gomez 
-      <div class="more-info">
-        <h3 class="member-social">INSTRUMENT</h3>
-        <p>Beatbox</p>
-      </div>
-    </li>
+        <li> Samantha Camille M. Eustaquio
+          <div class="more-info">
+            <h3 class="member-social">INSTRUMENT</h3>
+            <p>Ukelele</p>
+          </div>
+        </li>
 
-    <li> Miguel Alfonso L. Gonzalez 
-      <div class="more-info">
-        <h3 class="member-social">INSTRUMENT</h3>
-        <p>Beatbox</p>
-      </div>
-    </li>
+        <li> Joshe Calvin Tiu
+          <div class="more-info">
+            <h3 class="member-social">INSTRUMENT</h3>
+            <p>Alto Sax</p>
+          </div>
+        </li>
 
-    <li> Lorenzo Martin Abella Puno 
-      <div class="more-info">
-        <h3 class="member-social">INSTRUMENT</h3>
-        <p>Alto/Tenor Sax</p>
-      </div>
-    </li>
+        <li> Christine Denise V. Cu
+          <div class="more-info">
+            <h3 class="member-social">INSTRUMENT</h3>
+            <p>Violin</p>
+          </div>
+        </li>
 
-    <li> JM Gonzalez 
-      <div class="more-info">
-        <h3 class="member-social">INSTRUMENT</h3>
-        <p>Rap</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/jm-gonzalez" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Jose Enrique B. Gomez
+          <div class="more-info">
+            <h3 class="member-social">INSTRUMENT</h3>
+            <p>Beatbox</p>
+          </div>
+        </li>
 
-    <li> Sean Lanz Corpuz 
-      <div class="more-info">
-        <h3 class="member-social">INSTRUMENT</h3>
-        <p>Harmonica</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/sean-lanz-corpuz" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Miguel Alfonso L. Gonzalez
+          <div class="more-info">
+            <h3 class="member-social">INSTRUMENT</h3>
+            <p>Beatbox</p>
+          </div>
+        </li>
 
-    <li> Iggy Franco 
-      <div class="more-info">
-        <h3 class="member-social">INSTRUMENT</h3>
-        <p>Violin</p>
-      </div>
-    </li>
-  </ul>
-</article>
+        <li> Lorenzo Martin Abella Puno
+          <div class="more-info">
+            <h3 class="member-social">INSTRUMENT</h3>
+            <p>Alto/Tenor Sax</p>
+          </div>
+        </li>
 
-<article id="modal-7" class="modal">
-  <img src="https://images.unsplash.com/photo-1486475554424-2fa50cd59f18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=044e51f329bf5dab235887d9b4e46332&auto=format&fit=crop&w=751&q=80" alt="drum pad">
-  <h2>PRODUCER</h2>
-  <ul class="roster-members">
-    <li> Migs Villaluz 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>EDM &#8226 Future Bass &#8226 Future Punk &#8226 Hip Hop &#8226 House &#8226 JPOP &#8226 Trap</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/l-u-z-e" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> JM Gonzalez
+          <div class="more-info">
+            <h3 class="member-social">INSTRUMENT</h3>
+            <p>Rap</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/jm-gonzalez" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Raf Reyes 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Lo-Fi &#8226 Hip Hop &#8226 Soul/Jazz</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/OurSquare" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Sean Lanz Corpuz
+          <div class="more-info">
+            <h3 class="member-social">INSTRUMENT</h3>
+            <p>Harmonica</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/sean-lanz-corpuz" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-    <li> Andrea Ramos 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Dream Pop &#8226 Electronic &#8226 Indie</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/andreamicheline" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
+        <li> Iggy Franco
+          <div class="more-info">
+            <h3 class="member-social">INSTRUMENT</h3>
+            <p>Violin</p>
+          </div>
+        </li>
+      </ul>
+    </article>
 
-    <li> Jane Ong 
-      <div class="more-info">
-        <h3 class="member-social">GENRES</h3>
-        <p>Acoustic &#8226 Pop &#8226 RnB</p>
-        <h3 class="member-social">LINKS</h3>
-        <div id="artist-links-group">
-          <a href="https://soundcloud.com/xandre_jane" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
-        </div>
-      </div>
-    </li>
-  </ul>
-</article>
+    <article id="modal-7" class="modal">
+      <img src="https://images.unsplash.com/photo-1486475554424-2fa50cd59f18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=044e51f329bf5dab235887d9b4e46332&auto=format&fit=crop&w=751&q=80" alt="drum pad">
+      <h2>PRODUCER</h2>
+      <ul class="roster-members">
+        <li> Migs Villaluz
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>EDM &#8226 Future Bass &#8226 Future Punk &#8226 Hip Hop &#8226 House &#8226 JPOP &#8226 Trap</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/l-u-z-e" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
+        <li> Raf Reyes
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Lo-Fi &#8226 Hip Hop &#8226 Soul/Jazz</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/OurSquare" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <li> Andrea Ramos
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Dream Pop &#8226 Electronic &#8226 Indie</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/andreamicheline" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        <li> Jane Ong
+          <div class="more-info">
+            <h3 class="member-social">GENRES</h3>
+            <p>Acoustic &#8226 Pop &#8226 RnB</p>
+            <h3 class="member-social">LINKS</h3>
+            <div id="artist-links-group">
+              <a href="https://soundcloud.com/xandre_jane" target="_blank" rel="noopener"><i class="fab fa-soundcloud artist-links"></i></a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </article>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
     <script  src="js/index.js"></script>
 
-</body>
-
+  </body>
 </html>

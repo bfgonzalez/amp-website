@@ -1,20 +1,20 @@
 
 /* CSS Variables */
 :root {
- --pink: #E74265;
- --pink-secondary: #ff0055;
- --dark-grey: #212121;
+  --pink: #E74265;
+  --pink-secondary: #ff0055;
+  --dark-grey: #212121;
 }
 
-body { 
- font-family: "Questrial", sans-serif;
- margin: 0;
+body {
+  font-family: "Questrial", sans-serif;
+  margin: 0;
 }
 
 #amp-logo {
   width: 2.7em;
   height: 2.7em;
-  background-image: url("https://s9.postimg.org/eknpvmgb3/AMP-white-1024x7521.png");
+  background-image: url("https://lh3.googleusercontent.com/RvKOr4ZVQhVou8eXBhur0BB2ADsRCjZ8NqbeAYd-_gW6lCkERMB9PzUMMBCqAdQE3kbRTP-4wfSTHkOqKgacJKD1w6-_siznjtSc2rlCzQcmBk2IHXy0FOscPWyPR82sZGpoBI08ag=w2400");
   background-repeat: no-repeat;
   background-size: 100%;
   position: fixed;
@@ -25,7 +25,7 @@ body {
 /* persistent navigation */
 #nav-wrapper {
   z-index: 1;
-  position: fixed; 
+  position: fixed;
   cursor: pointer;
   right: 0;
   background: var(--pink);
@@ -82,7 +82,7 @@ a:hover {
 }
 
 
-/* "What is AMP?", Vision, Mission, Thrust*/ 
+/* "What is AMP?", Vision, Mission, Thrust*/
 #about {
   background-color: var(--dark-grey);
   padding: 1em;
@@ -93,7 +93,7 @@ a:hover {
   margin-top: 2.5em;
 }
 
-/* paragraph text for #about section */ 
+/* paragraph text for #about section */
 p {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -112,7 +112,7 @@ p {
   margin-top: 0.5em;
 }
 
-/* Primary section headers */ 
+/* Primary section headers */
 h1 {
   font: bold 2.2em "Oswald", sans-serif;
   color: var(--pink);
@@ -167,7 +167,7 @@ h2 {
   letter-spacing: 0.2em;
 }
 
-/* list of members for bands and soloist rosters */ 
+/* list of members for bands and soloist rosters */
 ul {
   list-style-type: none;
   padding-left: 0;
@@ -179,15 +179,15 @@ li {
   line-height: 1.3em;
 }
 
-/* upper half for bands of "artists" landing page */ 
+/* upper half for bands of "artists" landing page */
 #bands {
- background-image: url("https://images.unsplash.com/photo-1497342860825-91ff79bb8a7c?auto=format&fit=crop&w=750&q=80"); 
- background-size: cover;
- background-repeat: no-repeat;
- height: 55vh;
- cursor: pointer;
- opacity: 0.9;
- position: relative;
+  background-image: url("https://images.unsplash.com/photo-1497342860825-91ff79bb8a7c?auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55vh;
+  cursor: pointer;
+  opacity: 0.9;
+  position: relative;
 }
 
 #bands h1 {
@@ -217,7 +217,7 @@ li {
   background: linear-gradient(to right, var(--pink), var(--pink-secondary));
 }
 
-/* band names */ 
+/* band names */
 .band-tile h2 {
   letter-spacing: 0;
   margin-top: 1.5em;
@@ -233,7 +233,7 @@ li {
   color: var(--pink);
 }
 
-/* lower half for soloists of "artists" landing page */ 
+/* lower half for soloists of "artists" landing page */
 #soloists {
   background-image: url("https://images.unsplash.com/photo-1506026667107-3350a4c8eca6?auto=format&fit=crop&w=750&q=80");
   background-size: cover;
@@ -244,11 +244,11 @@ li {
 }
 
 #soloists:hover {
- opacity: 1;
- -webkit-transition: opacity ease-out 0.5s;
- -moz-transition: opacity ease-out 0.5s;
- -o-transition: opacity ease-out 0.5s;
- transition: opacity ease-out 0.5s;
+  opacity: 1;
+  -webkit-transition: opacity ease-out 0.5s;
+  -moz-transition: opacity ease-out 0.5s;
+  -o-transition: opacity ease-out 0.5s;
+  transition: opacity ease-out 0.5s;
 }
 
 #soloists h1 {
@@ -259,7 +259,7 @@ li {
   transform: translate(-50%, -65%);
 }
 
-/* tiles for each soloist roster */ 
+/* tiles for each soloist roster */
 .soloist-tile {
   background: var(--dark-grey);
   height: 50vh;
@@ -270,7 +270,7 @@ li {
   background: linear-gradient(to right, var(--pink), var(--pink-secondary));
 }
 
-/* soloist rosters */ 
+/* soloist rosters */
 .soloist-tile h2 {
   letter-spacing: 0;
   margin-top: 1.5em;
@@ -293,12 +293,12 @@ li {
   background: var(--pink);
 }
 
-/* toggle highlight style when roster member is 'clicked' */ 
+/* toggle highlight style when roster member is 'clicked' */
 .pink-highlight {
   background: var(--pink);
 }
 
-/* more details of soloists: genres, soundcloud */ 
+/* more details of soloists: genres, soundcloud */
 .more-info {
   height: auto;
   position: relative;
@@ -315,7 +315,7 @@ li {
   color: var(--pink);
 }
 
-/* pop-up windows used to display details of bands and soloists */ 
+/* pop-up windows used to display details of bands and soloists */
 .modal {
   height: auto;
   width: 86vw;
@@ -324,7 +324,7 @@ li {
   padding: 1em;
 }
 
-/* social links for both bands and soloists */ 
+/* social links for both bands and soloists */
 .artist-links {
   color: white;
   font-size: 1.7em;
@@ -340,16 +340,16 @@ li {
   margin-top: -1em;
 }
 
-/* for images used in pop-ups */ 
+/* for images used in pop-ups */
 img {
   width: 100%;
 }
 
-/* band descriptions */ 
+/* band descriptions */
 .modal p {
- font-size: 1em;
- width: auto;
- margin-top: -1em;
+  font-size: 1em;
+  width: auto;
+  margin-top: -1em;
 }
 
 #upcoming-event {
@@ -382,7 +382,7 @@ img {
 }
 
 #countdown h2 {
- display: inline;
+  display: inline;
 }
 
 #amplitube-news {
@@ -472,7 +472,7 @@ footer p {
 [class*="col-"] {
   float: left;
   padding: 15px;
-} 
+}
 
 /* For mobile phones: */
 [class*="col-"] {
@@ -492,7 +492,7 @@ footer p {
   .col-m-9 {width: 75%;}
   .col-m-10 {width: 83.33%;}
   .col-m-11 {width: 91.66%;}
-  .col-m-12 {width: 100%;} 
+  .col-m-12 {width: 100%;}
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
@@ -507,14 +507,14 @@ footer p {
   .col-9 {width: 75%;}
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;} 
+  .col-12 {width: 100%;}
 }
 
 @media only screen and (max-width: 767px) {
   .band-tile, .soloist-tile {
     height: 25vh;
   }
-  
+
   #social-icons {
     display: none;
   }
@@ -552,7 +552,7 @@ footer p {
   iframe {
     height: 30em;
   }
-  
+
   .modal p {
     font-size: 1.1em;
   }
@@ -572,7 +572,7 @@ footer p {
   #menu {
     font-size: 3em;
   }
-  
+
   #landing-text {
 	font-size: 5.5em;
   }
