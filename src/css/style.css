@@ -4,6 +4,7 @@
   --pink: #E74265;
   --pink-secondary: #ff0055;
   --dark-grey: #212121;
+  --grey-text: #424242;
 }
 
 body {
@@ -12,62 +13,66 @@ body {
 }
 
 #amp-logo {
-  width: 2.7em;
-  height: 2.7em;
+  width: 2rem;
+  height: 2rem;
   background-image: url("https://lh3.googleusercontent.com/RvKOr4ZVQhVou8eXBhur0BB2ADsRCjZ8NqbeAYd-_gW6lCkERMB9PzUMMBCqAdQE3kbRTP-4wfSTHkOqKgacJKD1w6-_siznjtSc2rlCzQcmBk2IHXy0FOscPWyPR82sZGpoBI08ag=w2400");
   background-repeat: no-repeat;
   background-size: 100%;
   position: fixed;
   left: 0;
-  margin: -0.8em 0 0 0.8em;
+  margin: -0.5rem 0 0 1rem;
 }
 
 /* persistent navigation */
 #nav-wrapper {
   z-index: 1;
   position: fixed;
-  cursor: pointer;
+  top: 0;
   right: 0;
-  background: var(--pink);
-  padding: 1em;
-  width: 100%;
+  padding: 1rem;
+  cursor: pointer;
 }
 
 #nav-wrapper a {
-  margin-left: 2.5em;
+  margin-left: 1.5rem;
   float: right;
   font-weight: bold;
 }
 
 #nav-wrapper a:hover {
-  color: white;
+  border-bottom: 4px solid var(--pink);
+}
+
+.no-hover {
+  pointer-events: none;
 }
 
 #social-icons {
-  font-size: 2em;
-  letter-spacing: 0.2em;
-  padding: 0.3em 0 0.3em 0.5em;
+  right: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  padding: 0.3rem 0;
   position: absolute;
   cursor: pointer;
 }
 
 #home {
-  background-color: var(--dark-grey);
   height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1495651779359-881fde1808a6?auto=format&fit=crop&w=750&q=80");
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
+  background: var(--dark-grey);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* "Bigger than the sound." */
-#landing-text {
-  font: 3em "Questrial", sans-serif;
-  position: absolute;
+h1 {
+  font-size: 3em;
+  color: var(--pink);
   width: 6em;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 /* links */
@@ -76,95 +81,81 @@ a {
   color: white;
 }
 
-/* mouse over link */
-a:hover {
-  color: var(--pink);
-}
-
-
-/* "What is AMP?", Vision, Mission, Thrust*/
+/* Who are we?, Vision, Mission*/
 #about {
-  background-color: var(--dark-grey);
-  padding: 1em;
+  background-color: white;
+  padding: 5rem 1rem 1rem 1rem;
   height: auto;
 }
 
-#vision-mission {
-  margin-top: 2.5em;
-}
-
-/* paragraph text for #about section */
 p {
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-size: 1em;
-  font-weight: lighter;
-  line-height: 1.5em;
+  color: var(--grey-text);
+  font: lighter 1rem/2rem sans-serif;
   text-align: left;
   margin: auto;
-  margin-top: -0.5em;
-  width: 16em;
+  width: auto;
   display: block;
 }
 
-/* paragraph text for: What is AMP? */
-#org-desc {
-  margin-top: 0.5em;
-}
-
 /* Primary section headers */
-h1 {
-  font: bold 2.2em "Oswald", sans-serif;
+h2 {
+  font: bold 2rem "Questrial", sans-serif;
   color: var(--pink);
   text-align: center;
-  padding-top: 2em;
-  margin: 0;
+}
+
+/* headers for about content, department names*/
+h3 {
+  font: 1.5rem "Questrial", sans-serif;
+  color: var(--dark-grey);
+  text-align: left;
 }
 
 /* AMP Departments */
 #departments {
   height: auto;
-  background-color: var(--dark-grey);
+  background-color: white;
+  padding-top: 1rem;
 }
 
-#departments h1 {
-  margin-bottom: 1em;
-  letter-spacing: 0.14em;
-}
-
-/* department names */
-#departments h3 {
-  font-size: 1.4em;
-}
-
-/* department descriptions */
-#departments p {
-  font-size: 1em;
-  line-height: 1.5em;
-  width: auto;
-}
-
-#dept-container {
-  padding: 0 2em 1em 2em;
+#departments h2 {
+  color: var(--pink);
+  margin-bottom: 0;
+  letter-spacing: 0.14rem;
+  background: var(--dark-grey);
+  padding: 2rem;
 }
 
 .dept-block {
-  min-height: 18em;
+  min-height: 18rem;
+}
+
+.dept-block h3, .dept-block p {
   color: white;
-  border: 2px solid var(--pink);
 }
 
-.dept-icons {
-  font-size: 3.5em;
-  color: var(--pink);
-  margin-right: 0.2em;
+.am-block {
+  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), url("https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5b811266a4cf56733a98b08047ffe3ed&auto=format&fit=crop&w=750&q=80");
 }
 
-h2 {
-  font: 1.7em "Oswald", sans-serif;
-  color: var(--pink);
-  text-align: center;
-  letter-spacing: 0.2em;
+.dd-block {
+  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), url("https://images.unsplash.com/photo-1453814235491-3cfac3999928?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f05da4077424625439e156f87d204797&auto=format&fit=crop&w=750&q=80");
+}
+
+.dp-block {
+  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), url("https://images.unsplash.com/photo-1512143889056-b57b4153f038?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3deaa8cb1ea7f0dc6acb6b8f5b1560e7&auto=format&fit=crop&w=750&q=80");
+}
+
+.ss-block {
+  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), url("https://images.unsplash.com/photo-1494707924465-e1426acb48cb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d7cac606b3752d340f2c342f32536727&auto=format&fit=crop&w=750&q=80");
+}
+
+.se-block {
+  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), url("https://images.unsplash.com/photo-1517353334933-3365be5c8ec3?ixlib=rb-0.3.5&s=8625c60f82992013595eeaa9603d30ff&auto=format&fit=crop&w=750&q=80");
+}
+
+.spp-block {
+  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), url("https://images.unsplash.com/photo-1527075240784-552cddfbb143?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=89678950ef9fa3fb3a395f660c84e533&auto=format&fit=crop&w=755&q=80");
 }
 
 /* list of members for bands and soloist rosters */
@@ -229,7 +220,7 @@ li {
 
 /* headers for "Members" & "Links" for bands */
 .member-social {
-  font: 1.3em "Oswald", sans-serif;
+  font: 1.3em sans-serif;
   color: var(--pink);
 }
 
@@ -347,7 +338,7 @@ img {
 
 /* band descriptions */
 .modal p {
-  font-size: 1em;
+  color: white;
   width: auto;
   margin-top: -1em;
 }
@@ -383,6 +374,10 @@ img {
 
 #countdown h2 {
   display: inline;
+}
+
+#amplitube {
+  height: 100vh;
 }
 
 #amplitube-news {
@@ -428,16 +423,14 @@ img {
 }
 
 .article-overlay p {
-  font-size: 1em;
   color: var(--pink);
   margin-left: 0;
 }
 
 #amplugged {
-  height: auto;
-  background-image: url("https://images.unsplash.com/photo-1484068793701-4e03840374c5?auto=format&fit=crop&w=750&q=80");
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100vh;
+  background: var(--dark-grey);
+  margin-top: -3rem;
 }
 
 iframe {
@@ -448,13 +441,13 @@ iframe {
 }
 
 footer {
-  color: white;
+  background: var(--dark-grey);
+  padding: 1rem;
 }
 
 footer p {
-  font-size: 1.2em;
+  color: white;
   text-align: center;
-  padding: 1em;
 }
 
 /* media queries for responsive design */
@@ -521,28 +514,18 @@ footer p {
 }
 
 @media only screen and (min-width: 600px) {
+  #landing-text {
+    width: 10em;
+
+  }
   iframe {
     height: 25em;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  #menu {
-    font-size: 2.6em;
-  }
-
   #landing-text {
 	  font-size: 3.5em;
-  	width: 12em;
-	  top: 15%;
-  }
-
-  h2 {
-    font-size: 2em;
-  }
-
-  p {
-    font-size: 1.5em;
   }
 
   #dept-container {
@@ -558,28 +541,9 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 1024px) {
-  #departments h3 {
-    font-size: 1.7em;
-  }
-
-  #departments p {
-    font-size: 1.2em;
-  }
-}
-
 @media only screen and (min-width: 1440px) {
-  #menu {
-    font-size: 3em;
-  }
-
   #landing-text {
 	font-size: 5.5em;
-  }
-
-  #departments p {
-    font-size: 1.2em;
-    width: auto;
   }
 
   #social-icons {
