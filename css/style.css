@@ -134,6 +134,7 @@ h3 {
   color: white;
 }
 
+/* black translucent layer for contrast*/
 .am-block {
   background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), url("https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5b811266a4cf56733a98b08047ffe3ed&auto=format&fit=crop&w=750&q=80");
 }
@@ -162,39 +163,36 @@ h3 {
 ul {
   list-style-type: none;
   padding-left: 0;
-  margin-top: -1em;
+  margin-top: -1rem;
 }
 
 li {
   color: white;
-  line-height: 1.3em;
+  line-height: 1.3rem;
+}
+
+/*artist label (i.e. "bands" or "soloists"*/
+.artist-label {
+  color: white;
+  font-size: 2.5rem;
 }
 
 /* upper half for bands of "artists" landing page */
 #bands {
-  background-image: url("https://images.unsplash.com/photo-1497342860825-91ff79bb8a7c?auto=format&fit=crop&w=750&q=80");
+  background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)), url("https://images.unsplash.com/photo-1474692295473-66ba4d54e0d3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=011de1da09df52cd8990a2282c5d38d1&auto=format&fit=crop&w=676&q=80");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 55vh;
+  width: 100%;
+  height: 50vh;
   cursor: pointer;
-  opacity: 0.9;
-  position: relative;
-}
-
-#bands h1 {
-  font-size: 2.7em;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -55%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #bands:hover {
-  opacity: 1;
-  -webkit-transition: opacity ease-out 0.5s;
-  -moz-transition: opacity ease-out 0.5s;
-  -o-transition: opacity ease-out 0.5s;
-  transition: opacity ease-out 0.5s;
+  background: linear-gradient(rgba(33, 33, 33, 0.1), rgba(33, 33, 33, 0.1)), url("https://images.unsplash.com/photo-1474692295473-66ba4d54e0d3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=011de1da09df52cd8990a2282c5d38d1&auto=format&fit=crop&w=676&q=80");
+  background-size: cover;
 }
 
 /* tiles for each band */
@@ -226,28 +224,20 @@ li {
 
 /* lower half for soloists of "artists" landing page */
 #soloists {
-  background-image: url("https://images.unsplash.com/photo-1506026667107-3350a4c8eca6?auto=format&fit=crop&w=750&q=80");
+  background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)), url("https://images.unsplash.com/photo-1507641829893-8fa7b6b3b6a8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2bd378e699616a063fd122bd98410d5a&auto=format&fit=crop&w=750&q=80");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 45vh;
+  width: 100%;
+  height: 50vh;
   cursor: pointer;
-  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #soloists:hover {
-  opacity: 1;
-  -webkit-transition: opacity ease-out 0.5s;
-  -moz-transition: opacity ease-out 0.5s;
-  -o-transition: opacity ease-out 0.5s;
-  transition: opacity ease-out 0.5s;
-}
-
-#soloists h1 {
-  font-size: 2.7em;
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -65%);
+  background: linear-gradient(rgba(33, 33, 33, 0.1), rgba(33, 33, 33, 0.1)), url("https://images.unsplash.com/photo-1507641829893-8fa7b6b3b6a8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2bd378e699616a063fd122bd98410d5a&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
 }
 
 /* tiles for each soloist roster */
@@ -258,7 +248,7 @@ li {
 }
 
 .soloist-tile:hover {
-  background: linear-gradient(to right, var(--pink), var(--pink-secondary));
+  background: var(--pink);
 }
 
 /* soloist rosters */
@@ -276,7 +266,7 @@ li {
 }
 
 .roster-members li {
-  font-size: 1.4em;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -293,12 +283,12 @@ li {
 .more-info {
   height: auto;
   position: relative;
-  padding: 0 1em 1em 1em;
+  padding: 0 1rem 1rem 1rem;
   overflow-y: hidden;
 }
 
 .more-info h3 {
-  font-size: 1.1em;
+  font-size: 1.1rem;
 }
 
 .more-info p {
@@ -318,7 +308,7 @@ li {
 /* social links for both bands and soloists */
 .artist-links {
   color: white;
-  font-size: 1.7em;
+  font-size: 1.7rem;
 }
 
 .artist-links:hover {
@@ -530,6 +520,18 @@ footer p {
 
   #dept-container {
     padding: 0 3.5em 3em 3.5em;
+  }
+
+  #bands {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+
+  #soloists {
+    float: left;
+    width: 50%;
+    height: 100vh;
   }
 
   iframe {
