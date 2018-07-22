@@ -504,7 +504,7 @@ footer p {
 }
 
 @media only screen and (min-width: 600px) {
-  #landing-text {
+  h1 {
     width: 10em;
 
   }
