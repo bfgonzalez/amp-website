@@ -98,14 +98,15 @@ p {
 
 /* Primary section headers */
 h2 {
-  font: bold 2rem "Questrial", sans-serif;
+  font-size: 2rem;
   color: var(--pink);
   text-align: center;
+  letter-spacing: 0.14rem;
 }
 
 /* headers for about content, department names*/
 h3 {
-  font: 1.5rem "Questrial", sans-serif;
+  font-size: 1.5rem;
   color: var(--dark-grey);
   text-align: left;
 }
@@ -113,14 +114,10 @@ h3 {
 /* AMP Departments */
 #departments {
   height: auto;
-  background-color: white;
-  padding-top: 1rem;
 }
 
 #departments h2 {
-  color: var(--pink);
   margin-bottom: 0;
-  letter-spacing: 0.14rem;
   background: var(--dark-grey);
   padding: 2rem;
 }
@@ -257,10 +254,6 @@ li {
 }
 
 /* soloist rosters */
-.soloist-tile h2 {
-  letter-spacing: 0;
-}
-
 .soloist-tile:hover h2 {
   color: white;
 }
@@ -290,12 +283,13 @@ img {
 .member-social {
   font: 1.3rem sans-serif;
   color: var(--pink);
+  padding: 0;
 }
 
 /* social links for both bands and soloists */
 .artist-links {
   color: var(--pink);
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 .artist-links:hover {
@@ -319,11 +313,13 @@ img {
 }
 
 .roster-members li:hover {
+  color: white;
   background: var(--pink);
 }
 
 /* toggle highlight style when roster member is 'clicked' */
 .pink-highlight {
+  color: white;
   background: var(--pink);
 }
 
