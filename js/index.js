@@ -13,7 +13,6 @@ $(document).ready(function() {
     }
   });
 
-  // jQuery modal plugin
   // modal pop-up for each band
   $("#band-1").on("click", function() {
     $("#modal-1").modal({
@@ -122,7 +121,7 @@ $(document).ready(function() {
 
   // countdown timer for upcoming event
   // date we're counting down to
-  var countDownDate = new Date("May 4, 2018 19:00:00").getTime();
+  var countDownDate = new Date("July 30, 2018 8:00:00").getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function() {

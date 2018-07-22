@@ -3,7 +3,7 @@
 :root {
   --pink: #E74265;
   --dark-grey: #212121;
-  --grey-text: #424242;
+  --grey-text: #2f4f4f;
 }
 
 body {
@@ -169,7 +169,7 @@ ul {
 
 li {
   color: var(--grey-text);
-  line-height: 1.3rem;
+  line-height: 1.5rem;
 }
 
 /* upper half for bands of "artists" landing page */
@@ -267,13 +267,15 @@ li {
   padding: 1em;
 }
 
-/* for images used in pop-ups */
-img {
-  width: 100%;
+/* band/roster name */
+.modal h2 {
+  color: white;
+  background: var(--pink);
+  font-size: 1.8rem;
+  padding: 0.5rem;
 }
 
-/* header text for bands and soloists rosters */
-.modal h2, .modal h3, #artist-links-group {
+.modal h2, .modal h3 {
   margin-bottom: 1rem;
 }
 
@@ -281,7 +283,12 @@ img {
 .modal p {
   color: var(--grey-text);
   width: auto;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
+}
+
+/* for images used in pop-ups */
+img {
+  width: 100%;
 }
 
 /* headers for "Members" & "Links" for bands */
@@ -316,9 +323,8 @@ img {
   cursor: pointer;
 }
 
-.roster-members li:hover {
-  color: white;
-  background: var(--pink);
+.roster-members li:active {
+  color: var(--pink);
 }
 
 /* toggle highlight style when roster member is 'clicked' */
