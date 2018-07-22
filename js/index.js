@@ -13,6 +13,7 @@ $(document).ready(function() {
     }
   });
 
+  // jQuery modal plugin
   // modal pop-up for each band
   $("#band-1").on("click", function() {
     $("#modal-1").modal({

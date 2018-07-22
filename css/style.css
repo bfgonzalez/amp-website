@@ -2,7 +2,6 @@
 /* CSS Variables */
 :root {
   --pink: #E74265;
-  --pink-secondary: #ff0055;
   --dark-grey: #212121;
   --grey-text: #424242;
 }
@@ -195,6 +194,7 @@ li {
   background-size: cover;
 }
 
+
 /* tiles for each band */
 .band-tile {
   background: var(--dark-grey);
@@ -203,7 +203,7 @@ li {
 }
 
 .band-tile:hover {
-  background: linear-gradient(to right, var(--pink), var(--pink-secondary));
+  background: var(--pink);
 }
 
 /* band names */
