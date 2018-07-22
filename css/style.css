@@ -158,22 +158,21 @@ h3 {
   background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), url("https://images.unsplash.com/photo-1527075240784-552cddfbb143?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=89678950ef9fa3fb3a395f660c84e533&auto=format&fit=crop&w=755&q=80");
 }
 
-/* list of members for bands and soloist rosters */
-ul {
-  list-style-type: none;
-  padding-left: 0;
-  margin-top: -1rem;
-}
-
-li {
-  color: white;
-  line-height: 1.3rem;
-}
-
 /*artist label (i.e. "bands" or "soloists"*/
 .artist-label {
   color: white;
   font-size: 2.5rem;
+}
+
+/* list of members for bands and soloist rosters */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  color: var(--grey-text);
+  line-height: 1.3rem;
 }
 
 /* upper half for bands of "artists" landing page */
@@ -194,11 +193,17 @@ li {
   background-size: cover;
 }
 
-
 /* tiles for each band */
 .band-tile {
   background: var(--dark-grey);
   height: 50vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
 }
 
@@ -209,17 +214,10 @@ li {
 /* band names */
 .band-tile h2 {
   letter-spacing: 0;
-  margin-top: 1.5em;
 }
 
 .band-tile:hover h2 {
   color: white;
-}
-
-/* headers for "Members" & "Links" for bands */
-.member-social {
-  font: 1.3em sans-serif;
-  color: var(--pink);
 }
 
 /* lower half for soloists of "artists" landing page */
@@ -244,6 +242,13 @@ li {
 .soloist-tile {
   background: var(--dark-grey);
   height: 50vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
 }
 
@@ -254,13 +259,56 @@ li {
 /* soloist rosters */
 .soloist-tile h2 {
   letter-spacing: 0;
-  margin-top: 1.5em;
 }
 
 .soloist-tile:hover h2 {
   color: white;
 }
 
+/* pop-up modals used to display details of bands and soloists */
+.modal {
+  height: auto;
+  width: 86vw;
+  background: white;
+  border-radius: 0;
+  padding: 1em;
+}
+
+/* for images used in pop-ups */
+img {
+  width: 100%;
+}
+
+/* band descriptions */
+.modal p {
+  color: var(--grey-text);
+  width: auto;
+  line-height: 1.5rem;
+}
+
+/* headers for "Members" & "Links" for bands */
+.member-social {
+  font: 1.3rem sans-serif;
+  color: var(--pink);
+}
+
+/* social links for both bands and soloists */
+.artist-links {
+  color: var(--pink);
+  font-size: 1.7rem;
+}
+
+.artist-links:hover {
+  color: var(--pink);
+}
+
+/* grouped font awesome icons to utilize letter spacing */
+#artist-links-group {
+  letter-spacing: 1rem;
+  margin-top: -1rem;
+}
+
+/* roster members for soloists */
 .roster-members {
 	text-align: center;
 }
@@ -296,56 +344,20 @@ li {
   color: var(--pink);
 }
 
-/* pop-up windows used to display details of bands and soloists */
-.modal {
-  height: auto;
-  width: 86vw;
-  background: var(--dark-grey);
-  border-radius: 0;
-  padding: 1em;
-}
-
-/* social links for both bands and soloists */
-.artist-links {
-  color: white;
-  font-size: 1.7rem;
-}
-
-.artist-links:hover {
-  color: var(--pink);
-}
-
-/* grouped font awesome icons to utilize letter spacing */
-#artist-links-group {
-  letter-spacing: 1em;
-  margin-top: -1em;
-}
-
-/* for images used in pop-ups */
-img {
-  width: 100%;
-}
-
-/* band descriptions */
-.modal p {
-  color: white;
-  width: auto;
-  margin-top: -1em;
-}
-
+/* Latest: Upcoming Event */
 #upcoming-event {
   height: 100vh;
   background: url("https://images.unsplash.com/photo-1487954277007-8c2d6710c312?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7323d12255257222b2431590ae0f506e&auto=format&fit=crop&w=750&q=80");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
   margin: auto;
 }
 
 #event-overlay {
   width: 100%;
-  padding: 1em;
+  padding: 1rem;
   background: black;
   position: absolute;
   bottom: 0;
@@ -355,7 +367,7 @@ img {
   color: white;
   font-family: "Questrial", sans-serif;
   letter-spacing: 0;
-  margin: 0.4em;
+  margin: 0.4rem;
 }
 
 #countdown {
@@ -376,13 +388,13 @@ img {
 }
 
 #amplitube-news h1 {
-  margin-top: -1.8em;
-  letter-spacing: 0.1em;
-  font-size: 2.7em;
+  margin-top: -1.8rem;
+  letter-spacing: 0.1rem;
+  font-size: 2.7rem;
 }
 
 .article-container {
-  height: 20em;
+  height: 20rem;
   border: 3px solid var(--pink);
 }
 
@@ -401,15 +413,15 @@ img {
 .article-overlay {
   width: inherit;
   background: black;
-  padding: 0.5em;
-  padding-top: 0.1em;
-  margin-top: 11.1em;
+  padding: 0.5rem;
+  padding-top: 0.1rem;
+  margin-top: 11.1rem;
   cursor: pointer;
 }
 
 .article-overlay h3 {
   color: white;
-  font: 1.5em "Questrial", sans-serif;
+  font: 1.5rem "Questrial", sans-serif;
 }
 
 .article-overlay p {
@@ -423,8 +435,9 @@ img {
   margin-top: -3rem;
 }
 
+/* embeds YouTube video for AMPlugged */
 iframe {
-  height: 20em;
+  height: 20rem;
   border: none;
   display: block;
   margin: auto;
