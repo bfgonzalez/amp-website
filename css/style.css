@@ -514,7 +514,7 @@ footer p {
 }
 
 @media only screen and (min-width: 768px) {
-  #landing-text {
+  h1 {
 	  font-size: 3.5em;
   }
 
@@ -544,7 +544,7 @@ footer p {
 }
 
 @media only screen and (min-width: 1440px) {
-  #landing-text {
+  h1 {
 	font-size: 5.5em;
   }
 
