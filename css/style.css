@@ -55,7 +55,7 @@ body {
   cursor: pointer;
 }
 
-#home {
+#home, #tube {
   height: 100vh;
   background: var(--dark-grey);
   display: -webkit-box;
@@ -349,6 +349,13 @@ img {
 .more-info p {
   text-align: center;
   color: var(--pink);
+}
+
+/* Tube: Coming Soon...*/
+#tube {
+  height: 100vh;
+  background: var(--dark-grey);
+  text-align: center;
 }
 
 /* Latest: Upcoming Event */
