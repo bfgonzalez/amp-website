@@ -121,7 +121,7 @@ $(document).ready(function() {
 
   // countdown timer for upcoming event
   // date we're counting down to
-  var countDownDate = new Date("July 30, 2018 8:00:00").getTime();
+  var countDownDate = new Date("August 15, 2018 8:00:00").getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function() {
@@ -139,15 +139,15 @@ $(document).ready(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Output the result in an element with id="demo"
-    $("#days").text(days + "d");
-    $("#hours").text(hours + "h");
-    $("#minutes").text(minutes + "m");
-    $("#seconds").text(seconds + "s");
+    document.getElementById("days").textContent = days + "d";
+    document.getElementById("hours").textContent = hours + "h";
+    document.getElementById("minutes").textContent = minutes + "m";
+    document.getElementById("seconds").textContent = seconds + "s";
 
     // If the count down is over, write some text
     if (distance < 0) {
-        clearInterval(x);
-        $("#countdown").text("Event is over");
+      clearInterval(x);
+      document.getElementById("countdown").textContent = "Event is over";
     }
   }, 1000);
 
