@@ -1,4 +1,3 @@
-$(document).ready(function() {
   // changes navbar color on scroll for better contrast
   var scroll_start = 0;
   var start_change = $("#about");
@@ -150,5 +149,3 @@ $(document).ready(function() {
       document.getElementById("countdown").textContent = "Event is over";
     }
   }, 1000);
-
-});
