@@ -5,4 +5,4 @@ The organization's official website
 can be found [here](<http://ateneomusicianspool.com>)
 
 If you wish to view the live demo of the mock redesign, click [here](<https://bfgonzalez.github.io/amp-website>)
-<img src="https://lh3.googleusercontent.com/0Xrx1g1bQ-ui9c4Qxa21Pr-Fd7KcLiLR6Con438XmKFKRjDHJT7n_SyheWEULDo5YXd538oVft-fvk1CF2XVYaEMSRCWetYn5sNM0ZHG5Uhcf1Q5_MNfTN5Jf8B1d7AwDpPMcZkM2g=w2400">
+<img src="https://lh3.googleusercontent.com/UECm2CSU8QLmV0lwyEQLhbwcJZKu5QLVoruTQPN8QhfDSGR7oJbjVqhpLWXqE-d9V5QfTYOFeXpgzk_PDuGBs6JaQWBaW0MJgLArxNkkYD9WPicTNmkk9p21Nr1wrA6Qe2LAjImKfw=w2400">
