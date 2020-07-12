@@ -1,6 +1,8 @@
 # AMP Website Redesign
 This is a mock redesign of the Ateneo Musician's Pool website, made with HTML, CSS, and JavaScript. In no way, shape, or form, is this the official website of the organization.
 
+All images used in this mock redesign (except for the organization's logo and social media icons) are stock images taken from https://unsplash.com/
+
 The organization's official website
 can be found [here](<http://ateneomusicianspool.com>)
 
